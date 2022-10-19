@@ -18,9 +18,9 @@ theme:
   name: material
   custom_dir: overrides
 
-plugins:
-  - search
-  - mkdocstrings
+# plugins:
+#   - search
+#   - mkdocstrings
 
 markdown_extensions:
   - admonition
