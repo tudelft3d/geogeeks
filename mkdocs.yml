@@ -1,0 +1,38 @@
+
+site_name: geogeek
+
+theme:
+  name: material
+  palette:
+    primary: purple
+  icon:
+    logo: material/console
+
+repo_url: https://github.com/hugoledoux/geogeek
+
+# nav:
+#     - Home: index.md
+
+# to override the copyright
+theme:
+  name: material
+  custom_dir: overrides
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
