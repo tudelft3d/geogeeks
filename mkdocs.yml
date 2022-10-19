@@ -18,6 +18,10 @@ theme:
   name: material
   custom_dir: overrides
 
+edit_uri: edit/main/docs/
+repo_name: hugoledoux/geogeek
+
+
 # plugins:
 #   - search
 #   - mkdocstrings
