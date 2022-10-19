@@ -46,5 +46,5 @@ As soon as your `~/.ssh/config` is defined and your public key is copied correct
 - For students, bastionex is not accesible. They have to request for an account in student-linux.tudelft.nl and then the configuration above should be change to use that hostname instead.
 - On `Windows` it should be possible to do similar things with `puttyssh` and `puttyagent`. Another alternative is to install `Windows Subsystem for Linux` and some Linux distribution (e.g. `Ubuntu`) and follow the same instructions above.
 - To copy files using a graphic interface use WinSCP, and configure a session following the figures here: 
-![WinSCP0](figs/WinSCP0.jpeg)
-![WinSCP1](figs/WinSCP1.jpeg)
+![WinSCP0](./img/WinSCP0.jpeg)
+![WinSCP1](./img/WinSCP1.jpeg)
