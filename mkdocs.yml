@@ -7,16 +7,13 @@ theme:
     primary: purple
   icon:
     logo: material/console
+  custom_dir: overrides #-- to override the copyright
 
 repo_url: https://github.com/hugoledoux/geogeek
 
 # nav:
 #     - Home: index.md
 
-# to override the copyright
-theme:
-  name: material
-  custom_dir: overrides
 
 edit_uri: edit/main/docs/
 repo_name: hugoledoux/geogeek
@@ -28,6 +25,7 @@ repo_name: hugoledoux/geogeek
 
 markdown_extensions:
   - admonition
+  - pymdownx.betterem
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
@@ -40,3 +38,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
