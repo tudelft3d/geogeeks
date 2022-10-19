@@ -1,5 +1,5 @@
 
-# Introduction to Git
+# Intro to Git
 
 !!! tip External material
 

@@ -1,4 +1,4 @@
-# LaTeX
+# Intro to LaTeX
 
 
 ## LaTeX installation
