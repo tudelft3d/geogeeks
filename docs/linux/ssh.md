@@ -1,5 +1,5 @@
 
-# Connecting to a linux server with ssh
+# Connecting to a Linux server with ssh
 
 
 Due to security measures, you cannot connect directly with your password. Here is how to set this up on a UNIX-like system (`Linux` and `macOS`).
