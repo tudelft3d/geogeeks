@@ -9,14 +9,14 @@ theme:
     logo: material/console
   custom_dir: overrides #-- to override the copyright
 
-repo_url: https://github.com/hugoledoux/geogeek
+repo_url: https://github.com/tudelft3d/geogeek
 
 # nav:
 #     - Home: index.md
 
 
 edit_uri: edit/main/docs/
-repo_name: hugoledoux/geogeek
+repo_name: tudelft3d/geogeek
 
 
 # plugins:
