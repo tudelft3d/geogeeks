@@ -1,5 +1,5 @@
 
-# The best...
+# The best software
 
 
 This is where it's getting fun, a totally non-objective list of what we find "best" to perform daily tasks with computers.
