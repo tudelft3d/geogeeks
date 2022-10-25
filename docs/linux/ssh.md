@@ -41,6 +41,32 @@ As soon as your `~/.ssh/config` is defined and your public key is copied correct
 - `ssh godzilla`
 - `ssh website`
 
+## Transferring files
+
+We suggest you use `rsync` command in the terminal for file transfer. To transfer a whole directory **to** a remote machine, use the following syntax:
+
+```
+rsync -azhP foo/bar remote_host:/folder/in/remote/
+```
+
+To transfer contents of a directory, but not the directory itself, add a trailing slash `/`. For example, to transfer the contents of a directory to 'gilfoyle', you can type
+
+```
+rsync -azhP foo/bar/ gilfoyle:/home/myusername/
+```
+
+To transfer a whole directory **from** a remote to your current directory, type:
+
+```
+rsync -azhP remote_host:/folder/in/remote .
+```
+
+If you don't have a Host defined in .ssh/config file, you must use username@remote_host identifier as 'remote_host'.
+
+Few notes about rsync:
+- It 'synchronizes' files between two computers. This means if two files are the same (name, size, date) it will skip them. Useful when you only want to update the whole folder with new files.
+- In the `-azhP` options `a` preserves all information on files from the host, `z` compresses files before sending, `h` shows human-readable form, and `P` allows a continuation of partially transferred files (in case your connection breaks).
+
 ## Comments
 
 - For students, bastionex is not accesible. They have to request for an account in student-linux.tudelft.nl and then the configuration above should be change to use that hostname instead.
