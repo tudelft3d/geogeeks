@@ -64,6 +64,7 @@ rsync -azhP remote_host:/folder/in/remote .
 If you don't have a Host defined in .ssh/config file, you must use username@remote_host identifier as 'remote_host'.
 
 Few notes about rsync:
+
 - It 'synchronizes' files between two computers. This means if two files are the same (name, size, date) it will skip them. Useful when you only want to update the whole folder with new files.
 - In the `-azhP` options `a` preserves all information on files from the host, `z` compresses files before sending, `h` shows human-readable form, and `P` allows a continuation of partially transferred files (in case your connection breaks).
 
