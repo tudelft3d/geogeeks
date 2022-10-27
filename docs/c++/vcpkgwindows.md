@@ -1,29 +1,32 @@
+
+# vcpkg on Windows
+
 ## Why an alternative solution?
 
-Using thrid-party libraries can sometimes not be very straightforward on `windows`, actually using [wsl on windows](https://github.com/tudelft3d/geogeek/blob/main/docs/c%2B%2B/wslclion.md)
-is indeed a convenient way. However, during my practice some "disadvantages" have been found:
+Using thrid-party libraries can sometimes not be very straightforward on Windows, actually using [WSL on Windows](../wslclion) is indeed a convenient way. 
+However, there are some disadvantages:
 
-* **wsl will incrementally occupy system disk space**.
+* **WSL will incrementally occupy system disk space**.
     
-    **wsl** is installed on **C drive** by default, there are quite a lot blogs on the internet to show how to move your **wsl** to another drive, but usually it is not recommended to avoid possible issues.
+    **WSL** is installed on **C drive** by default, there are quite a lot blogs on the internet to show how to move your **WSL** to another drive, but usually it is not recommended to avoid possible issues.
     
-    **wsl** is using [vhdx](https://www.techtarget.com/searchwindowsserver/definition/VHDX-Hyper-V-virtual-hard-disk), and usually your **wsl** corresponds to 
-    a specific **ext4.vhdx** file, see [here](https://stackoverflow.com/questions/70946140/docker-desktop-wsl-ext4-vhdx-too-large) for an example.
-    This file is auto-expanding (depending on your usage of your **wsl**), for example, in my practice it can take up to **14.6GB** space - only installed **C++ tool chain**, **vscode**,
-    necessary packages in this tutorial [wsl on windows](https://github.com/tudelft3d/geogeek/blob/main/docs/c%2B%2B/wslclion.md) and one **C++ project**(well ... maybe it is not actually a small project).
+    **WSL** is using [vhdx](https://www.techtarget.com/searchwindowsserver/definition/VHDX-Hyper-V-virtual-hard-disk), and usually your **WSL** corresponds to 
+    a specific **ext4.vhdx** file, see [here](https://stackoverflow.com/questions/70946140/docker-desktop-WSL-ext4-vhdx-too-large) for an example.
+    This file is auto-expanding (depending on your usage of your **WSL**), for example, in my practice it can take up to **14.6GB** space - only installed **C++ tool chain**, **vscode**,
+    necessary packages in this tutorial [WSL on windows](https://github.com/tudelft3d/geogeek/blob/main/docs/c%2B%2B/WSLclion.md) and one **C++ project**(well ... maybe it is not actually a small project).
     
     If you do not care about the disk space of **C drive**, it will probably be fine. But in this case I would recommend that your **C drive** should have at least **256GB** of space
-    for **wsl**. It's the maximum auto-expanding size of **wsl** by default.
+    for **WSL**. It's the maximum auto-expanding size of **WSL** by default.
     
-* **running project in wsl can be slow**
+* **running project in WSL can be slow**
 
-    It depends on the situation, but practically speaking, the more you use **wsl**, the slower the compilation speed and the running speed may be as the size of the occupied space increases.
+    It depends on the situation, but practically speaking, the more you use **WSL**, the slower the compilation speed and the running speed may be as the size of the occupied space increases.
     
     Another concern is about **gcc/g++** compiler, in some situations, it compiles slower than **MSVC(cl.exe)** on windows(for example in our practice **MSVC** compiles **CGAL** faster)
     
 * **separately isolated file system**
 
-    The file system of **wsl** is separated from **windows**, which means only if you have opened **wsl** from windows, the files in it can be accessed. This is sometimes not convenient.
+    The file system of **WSL** is separated from **windows**, which means only if you have opened **WSL** from windows, the files in it can be accessed. This is sometimes not convenient.
 
 ## Using vcpkg and visual studio on windows
 
@@ -82,13 +85,13 @@ It would be more convenient if you use **Windows Powershell**. In **Powershell**
 PS path\to\vcpkg> .\vcpkg install [package name]
 ```
 
-All in all, using **wsl** can make you familiar with the linux environment in advance - if you will use linux for development in the future.
+All in all, using **WSL** can make you familiar with the linux environment in advance - if you will use linux for development in the future.
 While if you are using **windows** platform (as far as I know most of first year students are using it since the Geomatics suggests so), it might be a good idea
 to use **vcpkg** and **MSVC**. 
 
 And with regard to **vcpkg**, there is one very comprehensive video:
 
-[vcpkg - C++ libraries simplified](https://www.youtube.com/watch?v=b7SdgK7Y510)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b7SdgK7Y510" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It explains how you download and build **vcpkg** and use it **step by step**.
 
