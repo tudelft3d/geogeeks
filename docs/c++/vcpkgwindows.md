@@ -1,5 +1,5 @@
 
-# vcpkg on Windows
+# Using vcpkg with Visual Studio & CLion
 
 ## Why an alternative solution?
 
@@ -9,14 +9,6 @@ However, there are some disadvantages:
 * **WSL will incrementally occupy system disk space**.
     
     **WSL** is installed on **C drive** by default, there are quite a lot blogs on the internet to show how to move your **WSL** to another drive, but usually it is not recommended to avoid possible issues.
-    
-    **WSL** is using [vhdx](https://www.techtarget.com/searchwindowsserver/definition/VHDX-Hyper-V-virtual-hard-disk), and usually your **WSL** corresponds to 
-    a specific **ext4.vhdx** file, see [here](https://stackoverflow.com/questions/70946140/docker-desktop-WSL-ext4-vhdx-too-large) for an example.
-    This file is auto-expanding (depending on your usage of your **WSL**), for example, in my practice it can take up to **14.6GB** space - only installed **C++ tool chain**, **vscode**,
-    necessary packages in this tutorial [WSL on windows](https://github.com/tudelft3d/geogeek/blob/main/docs/c%2B%2B/WSLclion.md) and one **C++ project**(well ... maybe it is not actually a small project).
-    
-    If you do not care about the disk space of **C drive**, it will probably be fine. But in this case I would recommend that your **C drive** should have at least **256GB** of space
-    for **WSL**. It's the maximum auto-expanding size of **WSL** by default.
     
 * **running project in WSL can be slow**
 
@@ -30,11 +22,7 @@ However, there are some disadvantages:
 
 ## Using vcpkg and visual studio on windows
 
-Considering the above disadvantages during the practice, another way might be useful for windows users and proven to work pretty well - **vcpkg**!
-
 What is **vcpkg**? To be in short, vcpkg is a free **C/C++ package manager** for acquiring and managing libraries. Maintained by the **Microsoft C++ team** and **open source contributors**.
-
-The **biggest advantage** is that it can be integrated with **IDE(e.g., Visual Studio)**, and **third-party libraries** installed through **vcpkg** can be included directly.
 
 ## install vcpkg
 
@@ -47,14 +35,16 @@ Make sure you are in the directory you want the tool installed to before doing t
 ```
 .\vcpkg\bootstrap-vcpkg.bat
 ```
-#### Install libraries for your project
+#### Step 3: Install libraries for your project
 ```
 vcpkg install [packages to install]
 ```
-#### Using vcpkg with MSBuild / Visual Studio (may require elevation)
+#### Step 4: Using vcpkg with MSBuild / Visual Studio (may require elevation)
 ```
 vcpkg integrate install
 ```
+**Note**: **Step 4** is not necessary if you are using **CLion**.
+
 After this, you can create a new project or open an existing one in the IDE. All installed libraries should already be discoverable by IntelliSense and usable in code without additional configuration.
 
 For more detailed info, you can refer to [vcpkg - get started](https://vcpkg.io/en/getting-started.html)
@@ -91,11 +81,54 @@ to use **vcpkg** and **MSVC**.
 
 And with regard to **vcpkg**, there is one very comprehensive video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b7SdgK7Y510" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[install vcpkg step by step](https://www.youtube.com/watch?v=b7SdgK7Y510)
 
 It explains how you download and build **vcpkg** and use it **step by step**.
 
+## Using vcpkg with Visual Studio
 
+Since we've integrated **vcpkg** with **MSBuild / Visual Studio**, you need to do **nothing** if you are using [Visual Studio C++ project](https://learn.microsoft.com/en-us/cpp/build/creating-and-managing-visual-cpp-projects?view=msvc-160). In your header / source files, you can for example just type:
+```cpp
+#include <CGAL/Polyhedron_3.h>
+```
+and the header file should be automatically detected and included.
 
+if you are using [CMake project](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160), you need to add corresponding scripts in your **CMakeLists.txt** file, for example, if you want to include **CGAL**:
+```cmake
+find_package(CGAL)
+if (CGAL_FOUND)
+	include(${CGAL_USE_FILE})
+	message(STATUS "CGAL found")
+	message(STATUS "CGAL VERSION" " " ${CGAL_VERSION})
+else()
+	message(SEND_ERROR "this code requires the CGAL library")
+	return()
+endif()
+```
 
-  
+## Using vcpkg with CLion
+
+**(1)** configure **C++ tool chain**: **File -> Settings -> Build, Execution, Deployment -> Toolchains**
+<img src="https://user-images.githubusercontent.com/72781910/198726367-3664de52-49f5-4d90-a872-c3c34404c5a4.png" height="500">
+
+see [here](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) for more details.
+
+**Note**: About selecting architecture:
+
+- **x86**: The compiler is the x86 version and the output target is x86.
+
+- **amd64_x86**: The compiler is the amd64 version and the output target is x86.
+
+- **amd64**: The compiler is the amd64 version and the output target is amd64.
+
+- **x86_amd64**: The compiler is the x86 version and the output file is amd64.
+
+**(2)** configure **CMake option**: **File -> Settings -> Build, Execution, Deployment -> CMake**
+```console
+DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake
+```
+<img src="https://user-images.githubusercontent.com/72781910/198729047-6a7fce68-1231-4a48-ba2b-894e5bccf35b.png" height="500">
+
+Now you are all set to include your desired library in **CMakeLists.txt**, for example include **CGAL**:
+
+<img src="https://user-images.githubusercontent.com/72781910/198732802-84af7903-a73f-44ab-97dd-b27767949354.png" height="338">
