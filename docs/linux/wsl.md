@@ -38,6 +38,11 @@ Once you complete this step, your WSL is ready to use!
 
 !!! warning
 
+    Some computer companies seem to block virtualization by default, and it needs to be explictly enabled. This is done in the BIOS, [follow this manual](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html).
+
+
+!!! warning
+
     If you want to install another Linux than Ubuntu (as above) or want to see more options, see the [Microsoft Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands).
 
 ## The Windows Terminal is recommended
