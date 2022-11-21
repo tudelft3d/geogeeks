@@ -4,7 +4,7 @@ site_name: geogeek
 theme:
   name: material
   palette:
-    primary: purple
+    primary: blue grey
   icon:
     logo: material/console
   custom_dir: overrides #-- to override the copyright
@@ -12,7 +12,7 @@ theme:
 repo_url: https://github.com/tudelft3d/geogeek
 
 # nav:
-#     - Home: index.md
+  # - Home222: index.md
 
 
 edit_uri: edit/main/docs/
