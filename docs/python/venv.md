@@ -49,6 +49,8 @@ deactivate
 
 ## How to create a venv with PyCharm
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_oRO08UrNqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 
 ## A venv manager: pyenv
