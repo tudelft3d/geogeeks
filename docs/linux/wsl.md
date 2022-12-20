@@ -18,7 +18,7 @@ To install WSL, open command prompt as administrator.
 Run the following command:
 
 ```sh
-wsl --install
+wsl --install -d ubuntu
 ```
 
 This will start the process to install WSL on your device. Once the installation is complete, you will need to reboot your device.   
