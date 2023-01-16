@@ -1,6 +1,8 @@
 # Using the DelftBlue supercomputer
 
-Special thanks to [Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/) for writing up this blog post. This is a great general explanation of everything a geomatics student would need to know to use DelftBlue.
+!!! note
+
+    This is taken from from [the blog of Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/tudhpc/). This is a great general explanation of everything a geomatics student would need to know to use DelftBlue.
 
 # Introduction
 
