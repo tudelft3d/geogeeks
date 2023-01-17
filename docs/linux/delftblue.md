@@ -1,5 +1,12 @@
 # Using the DelftBlue supercomputer
 
+
+!!! note
+
+    DelftBlue is a high-performance computing cluster that is used for research and education at TU Delft. It is a heterogeneous cluster that consists of a mix of CPU and GPU nodes. It has a good [official documentation](https://doc.dhpc.tudelft.nl/delftblue/).
+
+    If you are supervisor having a student need to use DHPC, or aforementioned student you can request a project for your student. The request form is [here](https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=b7e2b7b46ac94cf688c21761aa324fc1&from=fb47dc4a-d699-45e5-be24-65086929391d) and must be filled by the student.
+
 !!! note
 
     This is taken from from [the blog of Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/tudhpc/). This is a great general explanation of everything a geomatics student would need to know to use DelftBlue.
@@ -49,13 +56,7 @@ After your job is completed, you can use the `sacct` command to view accounting 
 
 These are the basic steps for using SLURM to manage GPU-based HPC jobs. Be sure to consult the SLURM documentation for more information on how to use the system, including advanced configuration options and troubleshooting tips.
 
-# DelftBlue
-
-DelftBlue is a high-performance computing cluster that is used for research and education at TU Delft. It is a heterogeneous cluster that consists of a mix of CPU and GPU nodes. The official documentation is maintained in this [link](https://doc.dhpc.tudelft.nl/delftblue/).
-
-If you are supervisor having a student need to use DHPC, or aforementioned student you can request a project for your student. The request form is [here](https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=b7e2b7b46ac94cf688c21761aa324fc1&from=fb47dc4a-d699-45e5-be24-65086929391d) and must be filled by student.
-
-### Connecting to DelftBlue
+## Connecting to DelftBlue
 
 <sub><sup>I feel lazy to learn to use GUI based softwares, so I  use terminal, and give command examples </sup></sub>
 
@@ -65,7 +66,7 @@ To connect to DelftBlue, you will need to use SSH. The login node is `login.delf
 ssh <netid>@login.delftblue.tudelft.nl
 ```
 
-### Data transfer
+## Data transfer
 
 - SCP (Secure Copy) <sub><sup>*Common choice*</sup></sub> <br>
     Using the `scp` command, you can copy files to and from DelftBlue. Here are some examples of using the scp command:
