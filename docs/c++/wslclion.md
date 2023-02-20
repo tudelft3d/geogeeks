@@ -1,5 +1,5 @@
 
-# All platforms: WSL & CLion
+# Windows: WSL & CLion
 
 By far the simplest way to use in C++ libraries such as [CGAL](https://www.cgal.org/) (library to perform geometric operations in 2D, 3D, and even nD), [GDAL](https://gdal.org/index.html) (library to read/write all the vector/raster formats in GIS), or others (eg [GEOS](https://libgeos.org/)), under Windows is... to install Linux!?
 
