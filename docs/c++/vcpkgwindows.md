@@ -1,5 +1,5 @@
 
-# Using vcpkg with Visual Studio & CLion
+# Windows: vcpkg with Visual Studio & CLion
 
 ## Why an alternative solution?
 
