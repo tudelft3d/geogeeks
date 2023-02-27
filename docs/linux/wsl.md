@@ -43,6 +43,10 @@ Once you complete this step, your WSL is ready to use!
 
 !!! warning
 
+    Some Windows installations come with either virtualisation features or WSL disabled. See [this](https://superuser.com/questions/1736443/wsl-2-installing-linux-failed-error-code-0x80370114) post to enable them.
+
+!!! warning
+
     If you want to install another Linux than Ubuntu (as above) or want to see more options, see the [Microsoft Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands).
 
 ## The Windows Terminal is recommended
