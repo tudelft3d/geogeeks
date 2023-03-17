@@ -197,7 +197,7 @@ ln -s /scratch/${USER}/.local $HOME/.local
 #SBATCH --partition=gpu                     # partition name it means i want to use gpu
 #SBATCH --time=02:00:00                     # time limit (HH:MM:SS)
 #SBATCH --ntasks=1                          # number of parallel tasks per job is 1
-#SBATCH --cpus-per-task=24                  # number of cores per task    
+#SBATCH --cpus-per-task=2                   # number of cores per task    
 #SBATCH --gpus-per-task=1                   # number of GPUs per task
 #SBATCH --mem-per-cpu=1G                    # memory per CPU core
 #SBATCH --account=research-abe-ur           # account name
