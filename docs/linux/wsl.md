@@ -9,7 +9,13 @@
 [WSL](https://docs.microsoft.com/en-us/windows/wsl/) is an installation of a Linux environment "inside" your Windows (Win10 or Win11).
 It will allow you to run several Linux tools on the command line (eg `wget`, `grep`, or `ssh`), to use databases (eg Postgres) or compilers (eg C++) installed under Linux.
 
-## How to install WSL
+## How to install WSL (Windows store)
+
+1. Open the Microsoft store and install the Windows Subsystem for Linux. 
+2. Search for "ubuntu lts" and install the latest version available (eg 22.04).
+3. See [this](https://superuser.com/questions/1736443/wsl-2-installing-linux-failed-error-code-0x80370114) and enable: (1) Virtual Machine Platform and (2) Windows Subsystem for Linux.
+
+## How to install WSL (command line)
 
 To install WSL, open command prompt as administrator. 
 
@@ -18,7 +24,13 @@ To install WSL, open command prompt as administrator.
 Run the following command:
 
 ```sh
-wsl --install -d ubuntu
+wsl -l -o
+```
+
+This will list the Linux distributions that are available to install in the online store. Out of those, you probably want to install the latest version of Ubuntu with long-term support (LTS). If you selected Ubuntu-22.04 LTS (meaning from April 2022), that would be:
+
+```sh
+wsl --install -d Ubuntu-22.04
 ```
 
 This will start the process to install WSL on your device. Once the installation is complete, you will need to reboot your device.   
