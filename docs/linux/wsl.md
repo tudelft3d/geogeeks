@@ -41,6 +41,12 @@ After the reboot, wait a couple of seconds for the Ubuntu terminal to open and c
 
 Once you complete this step, your WSL is ready to use! 
 
+If you want to open the current directory in Windows File Explorer, type the following command in the terminal:
+
+```sh
+explorer.exe .
+```
+
 !!! note
 
     You will not be able to use "ctrl+c/v" for Copy/Paste on the Ubuntu terminal. Instead, go to *Properties* by right-clicking on the top of the terminal and enable *Use Ctrl+Shift+C/V as Copy/Paste.*
