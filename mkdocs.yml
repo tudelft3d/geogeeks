@@ -2,12 +2,16 @@
 site_name: geogeek
 
 theme:
+  custom_dir: overrides #-- to override the copyright
+  features:
+    - content.action.edit
+  icon:
+    logo: material/console
+    edit: material/pencil 
+    view: material/eye
   name: material
   palette:
     primary: blue grey
-  icon:
-    logo: material/console
-  custom_dir: overrides #-- to override the copyright
 
 repo_url: https://github.com/tudelft3d/geogeek
 
