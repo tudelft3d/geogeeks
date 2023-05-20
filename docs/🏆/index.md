@@ -1,5 +1,5 @@
 
-# The best software
+# The best generic software
 
 
 This is where it's getting fun, a totally non-objective list of what we find "best" to perform daily tasks with computers.
