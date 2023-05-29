@@ -5,6 +5,8 @@ theme:
   custom_dir: overrides #-- to override the copyright
   features:
     - content.action.edit
+    # Links content tabs. If user selects MacOS on one page, tabs on other pages will also be set MacOS
+    - content.tabs.link 
   icon:
     logo: material/console
     edit: material/pencil 
@@ -48,3 +50,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  # Content tabs (buttons to show different text based on selected tab)
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
