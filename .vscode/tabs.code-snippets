@@ -1,0 +1,82 @@
+{
+    "OS Windows/Unix": {
+        "scope": "markdown",
+        "prefix": [
+            "\\os_win_unix"
+        ],
+        "body": [
+            "=== \":simple-windows: Windows\"",
+			"    ",
+            "    $1",
+			"    ",
+            "=== \":simple-apple: :simple-linux: Unix (MacOS & Linux)\"",
+			"    ",
+            "    $2",
+			"    ",
+        ]
+    },
+    "OS WindowsLinux/MacOS": {
+        "scope": "markdown",
+        "prefix": [
+            "\\os_winlinux_macos"
+        ],
+        "body": [
+            "=== \":simple-windows: :simple-linux: Windows & Linux\"",
+			"    ",
+            "    $1",
+			"    ",
+            "=== \":simple-apple: MacOS\"",
+			"    ",
+            "    $2",
+			"    ",
+        ]
+    },
+    "OS Windows/MacOS/Linux": {
+        "scope": "markdown",
+        "prefix": [
+            "\\os_win_macos_linux"
+        ],
+        "body": [
+            "=== \":simple-windows: Windows\"",
+			"    ",
+            "    $1",
+			"    ",
+            "=== \":simple-apple: MacOS\"",
+			"    ",
+            "    $2",
+			"    ",
+            "=== \":simple-linux: Linux\"",
+			"    ",
+            "    $3",
+			"    ",
+        ]
+    },
+	"Python Tab": {
+		"scope": "markdown",
+		"prefix": [
+			"\\pytab"
+		],
+		"body": [
+			"=== \":simple-python: Python\"",
+			"    ",
+			"    ```python",
+			"    $1",
+			"    ```",
+			"    ",
+		]
+	},
+	"C++ Tab": {
+		"scope": "markdown",
+		"prefix": [
+			"\\cpptab"
+		],
+		"body": [
+			"=== \":simple-cplusplus: C++\"",
+			"    ",
+			"    ```cpp",
+			"    $1",
+			"    ```",
+			"    ",
+		]
+	}
+}

@@ -1,0 +1,129 @@
+{
+    "Python icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ipython"
+        ],
+        "body": [
+            ":simple-python:",
+        ]
+    },
+    "C++ icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\icpp"
+        ],
+        "body": [
+            ":simple-cplusplus:",
+        ]
+    },
+    "HTML icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ihtml"
+        ],
+        "body": [
+            ":simple-html5:",
+        ]
+    },
+    "CSS icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\icss"
+        ],
+        "body": [
+            ":simple-css3:",
+        ]
+    },
+    "Javascript icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ijavascript"
+        ],
+        "body": [
+            ":simple-javascript:",
+        ]
+    },
+    "Windows icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iwindows"
+        ],
+        "body": [
+            ":simple-windows:",
+        ]
+    },
+    "Apple icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iapple",
+            "\\imacos"
+        ],
+        "body": [
+            ":simple-apple:",
+        ]
+    },
+    "Linux icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ilinux"
+        ],
+        "body": [
+            ":simple-linux:",
+        ]
+    },
+    "Terminal icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iterminal"
+        ],
+        "body": [
+            ":octicons-terminal-16:",
+        ]
+    },
+    "Pycharm icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ipycharm"
+        ],
+        "body": [
+            ":simple-pycharm:",
+        ]
+    },
+    "CLion icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iclion"
+        ],
+        "body": [
+            ":simple-clion:",
+        ]
+    },
+    "Visual Studio Code icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\ivscode"
+        ],
+        "body": [
+            ":simple-visualstudiocode:",
+        ]
+    },
+    "QGIS icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iqgis"
+        ],
+        "body": [
+            ":simple-qgis:",
+        ]
+    },
+    "ArcGIS icon": {
+        "scope": "markdown",
+        "prefix": [
+            "\\iarcgis"
+        ],
+        "body": [
+            ":simple-arcgis:",
+        ]
+    }
+}
