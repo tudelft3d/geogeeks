@@ -1,8 +1,8 @@
 
-# The best generic software
+# Best software 🏆
 
 
-This is where it's getting fun, a totally non-objective list of what we find "best" to perform daily tasks with computers.
+This is where it's getting fun, a totally non-objective list of what the staff of the MSc Geomatics find "best" to perform daily tasks with computers.
 
 | Staff       | OS | Text editor  | Git client | C++ IDE | Python IDE | LaTeX | Reference manager |
 | :---------- | :- | :----------- | :--------- | :------ | :--------- | :---- | :---------------- |

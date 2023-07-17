@@ -11,7 +11,7 @@
 
     This is taken from from [the blog of Nail Ibrahimli](https://3d.bk.tudelft.nl/nail/tudhpc/). This is a great general explanation of everything a geomatics student would need to know to use DelftBlue.
 
-# Introduction
+## Introduction
 
 I am not an expert in using SLURM and using HPCs, but I have used it for a while now, and I have found it to be a very useful tool for managing HPC jobs. In this post, I will provide a brief introduction to SLURM, DelftBlue and INSY, and I will provide some basic information on how to use SLURM to manage HPC jobs on DelftBlue and INSY clusters.
 
@@ -19,7 +19,7 @@ I have noticed that some students — particularly those with little to no techn
 
 But I would **strongly suggest** to read the official documentation of DelftBlue and INSY, as it is very well written and has a lot of useful information.
 
-# SLURM
+## SLURM
 
 [SLURM](https://slurm.schedmd.com/) (Simple Linux Utility for Resource Management) is a powerful open-source cluster management and job scheduling system that is widely used in High Performance Computing (HPC) environments. It is designed to be highly scalable, fault-tolerant, and easy to use.
 
@@ -56,7 +56,7 @@ After your job is completed, you can use the `sacct` command to view accounting 
 
 These are the basic steps for using SLURM to manage GPU-based HPC jobs. Be sure to consult the SLURM documentation for more information on how to use the system, including advanced configuration options and troubleshooting tips.
 
-## Connecting to DelftBlue
+### Connecting to DelftBlue
 
 <sub><sup>I feel lazy to learn to use GUI based softwares, so I  use terminal, and give command examples </sup></sub>
 
@@ -66,7 +66,7 @@ To connect to DelftBlue, you will need to use SSH. The login node is `login.delf
 ssh <netid>@login.delftblue.tudelft.nl
 ```
 
-## Data transfer
+### Data transfer
 
 - SCP (Secure Copy) <sub><sup>*Common choice*</sup></sub> <br>
     Using the `scp` command, you can copy files to and from DelftBlue. Here are some examples of using the scp command:
@@ -105,8 +105,8 @@ ssh <netid>@login.delftblue.tudelft.nl
     # Copying files from DelftBlue to local machine recursively
     get -r <source> <target>
     ```
-## Loading modules
-### What are modules?
+### Loading modules
+#### What are modules?
 Modules are a way to manage software on a cluster. They allow you to *load* and *unload* software packages, and they allow you to manage dependencies between software packages. Modules are loaded using the `module` command. Here are some examples of using the `module` command:
 ```bash
 # Loading a module
@@ -119,12 +119,12 @@ module list
 module avail
 ```
 
-### What modules are available?
+#### What modules are available?
 The modules available on DelftBlue are listed in the [modules page](https://doc.dhpc.tudelft.nl/delftblue/DHPC-modules/). Use `spider` command to search for modules
 ```bash
 module spider <module_name>
 ```
-### I am fully lost. How do I know which modules I need?
+#### I am fully lost. How do I know which modules I need?
 
 You can use the following command if you are not knowing what you are doing, 
 ```bash
@@ -141,11 +141,11 @@ Built on Tue_Mar__8_18:18:20_PST_2022
 Cuda compilation tools, release 11.6, V11.6.124
 Build cuda_11.6.r11.6/compiler.31057947_0
 ```
-## Conda environment
-### What is conda?
+### Conda environment
+#### What is conda?
 Conda is an open-source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs, and updates packages and their dependencies. Conda easily creates, saves, loads, and switches between environments on your local computer. It is mainly used for Python programs.
 
-### How to use conda?
+#### How to use conda?
 To use conda, you will need to load the conda module. Here are some examples of using the `conda` command:
 ```bash
 # Loading the conda module
@@ -167,7 +167,7 @@ conda remove <package_name>
 # Removing a conda environment
 conda env remove -n <environment_name> --all
 ```
-### Should I use conda environment on DelftBlue? Avoiding storage issues
+#### Should I use conda environment on DelftBlue? Avoiding storage issues
 Yes, you should use conda environment on DelftBlue. Is that I all need to do? No, the reason is that conda environments are stored in your home directory, and not in the shared file system. This means that you will not run into storage issues when using conda environments. And it will happen very quickly, believe me.
 
 To avoid storage issues, you should create a *conda environment* on the scratch storage and link to them in your home directory.
@@ -184,8 +184,8 @@ ln -s /scratch/${USER}/.local $HOME/.local
 ```
 
 
-## Running jobs on GPU nodes
-### Sample sbatch script from actual project
+### Running jobs on GPU nodes
+#### Sample sbatch script from actual project
 ```bash
 #!/bin/sh
 
@@ -224,7 +224,7 @@ nvidia-smi --query-accounted-apps='gpu_utilization,mem_utilization,max_memory_us
 
 ```
 
-# Contribute 
+## Contribute 
 If you find any errors or have any suggestions, please feel free to open an issue or pull request in [git](https://github.com/Mirmix/tudelft-hpc-tutorial).
 
 ## Kudos
