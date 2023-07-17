@@ -7,6 +7,8 @@ theme:
     - content.action.edit
     # Links content tabs. If user selects MacOS on one page, tabs on other pages will also be set MacOS
     - content.tabs.link 
+    - navigation.tabs
+    - navigation.top
   icon:
     logo: material/console
     edit: material/pencil 
@@ -15,7 +17,7 @@ theme:
   palette:
     primary: blue grey
 
-repo_url: https://github.com/tudelft3d/geogeek
+repo_url: https://github.com/tudelft3d/geogeeks
 
 # nav:
   # - Home222: index.md
