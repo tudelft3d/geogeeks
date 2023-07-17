@@ -1,5 +1,5 @@
 
-site_name: geogeek
+site_name: geogeeks
 
 theme:
   custom_dir: overrides #-- to override the copyright
@@ -22,7 +22,7 @@ repo_url: https://github.com/tudelft3d/geogeek
 
 
 edit_uri: edit/main/docs/
-repo_name: tudelft3d/geogeek
+repo_name: tudelft3d/geogeeks
 
 
 # plugins:

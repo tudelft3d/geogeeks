@@ -15,7 +15,7 @@
 
 ## List of topics
 
-<https://github.com/tudelft3d/geogeek/issues/>
+<https://github.com/tudelft3d/geogeeks/issues/>
 
 
 ## How to fix errors and contribute?
