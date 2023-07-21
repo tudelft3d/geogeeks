@@ -1,5 +1,49 @@
 
-# All platforms: CLion and CMake
+
+[CMake](https://cmake.org) is a cross-platform software for building, installing, and testing C++ code (other languages are supported though). 
+It does not actually compile the code, but generate a `Makefile` that can then be used to compile the source code.
+
+CMake can also thus be used to generate a project file, eg in CLion.
+
+
+## Installing CMake
+
+=== ":simple-apple: MacOS"
+
+    `brew install cmake`
+
+=== ":simple-linux: Linux"
+
+    `apt install cmake`
+
+=== ":simple-windows: Windows"
+
+    TODO
+
+
+## CMake with the console
+
+If you have a folder in which there is a `CMakeLists.txt` file (this [simple repository](https://github.com/hugoledoux/demo_cmake) shows ones example), follow those steps:
+
+=== ":simple-apple: :simple-linux: Unix (MacOS & Linux)"
+
+    ```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ./demo_cmake
+    ```
+
+Notice that we create a new folder `/build` so that all the temporary compilation files are not in the same folder, all created files will go in that one folder (which can be safely deleted).
+The step `cmake ..` means that the `CMakeLists.txt` file is located in the parent folder, its output is a `Makefile` file which allows us to compile the code (and build the binary `demo_cmake`).
+
+=== ":simple-windows: Windows"
+
+    TODO
+
+
+## CMake with CLion
 
 1. In CLion, create a new project (File > New Project) or click on New Project on the Welcome screen.
 
@@ -25,7 +69,7 @@ The `CMakeLists.txt` file that was created by CLion contains four commands:
 
 Anything in the C++ standard library should work after merely including a header in your `main.cpp`. No changes to the `CMakeLists.txt` required. For example, if you want to use [`std::cout` and its `<<` operator](https://www.cplusplus.com/reference/ostream/ostream/operator%3C%3C/), you just need include `iostream` in the `main.cpp`:
 
-```
+```cpp
 #include <iostream> 
 ```
 
