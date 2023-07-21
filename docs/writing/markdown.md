@@ -11,7 +11,6 @@ The geogeeks website is written in Markdown, see [the source of this page](https
 ## Getting started
 
 !!! external-link "GitHub's Markdown quickstart"
-
     [Learn Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) by making a README file for your GitHub profile
 
 
@@ -21,7 +20,6 @@ The [original Markdown](https://daringfireball.net/projects/markdown/) is rather
 Watch out, it's a bit of the far-west out there: some processors might not be able to parse your flavour of Markdown correctly!?
 
 !!! external-link "GitHub Flavoured Markdown"
-
     GitHub offers an useful overview of the features they added for their extended version called "[GitHub Flavoured Markdown (GFM)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)".
 
 
