@@ -26,6 +26,8 @@ repo_url: https://github.com/tudelft3d/geogeeks
 edit_uri: edit/main/docs/
 repo_name: tudelft3d/geogeeks
 
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
