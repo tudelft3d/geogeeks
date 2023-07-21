@@ -7,7 +7,7 @@ Installing all the libraries above is possible directly under Windows, but it is
 
 !!! warning "Before you continue this tutorial"
 
-    You must first [install WSL](../../linux/wsl) on your Windows machine.
+    You must first [install WSL](../../computer/wsl) on your Windows machine.
 
 
 ## Install GDAL

@@ -14,7 +14,7 @@ CMake can also thus be used to generate a project file, eg in CLion.
 
 === ":simple-linux: Linux"
 
-    `apt install cmake`
+    `sudo apt-get install build-essential libssl-dev`
 
 === ":simple-windows: Windows"
 
