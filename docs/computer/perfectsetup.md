@@ -23,4 +23,11 @@
     - **LaTeX**: `apt install texlive` to compile; your [favourite text editor](/computer/bestsoftware/) as IDE; [JabRef](https://www.jabref.org/) for BibTeX management
 
 === ":simple-windows: Windows"
+    - [WSL](/computer/wsl/) is really important to be able to run Linux
+    - **Python**: PyCharm as IDE; pypi as package manager; pyenv as environment manager
+    - **C++**: CLion as IDE; brew as package manager; CMake as builder
+    - **GIS**: [QGIS](https://www.qgis.org/en/site/forusers/download.html)
+    - **3D data**: [MeshLab](https://www.meshlab.net/) as viewer/editor of 2-manifold meshes; [CloudCompare](https://www.cloudcompare.org/) for point clouds; [ParaView](https://www.paraview.org/) for volumetric meshes
+    - **LaTeX**: [MikTeX](https://miktex.org/) to compile; your [favourite text editor](/computer/bestsoftware/) as IDE; [JabRef](https://www.jabref.org/) for BibTeX management
+
     TODO
