@@ -7,7 +7,7 @@
 
 
 === ":simple-linux: Linux"
-    In the console: `sudo apt update` will install clang, gcc, and git.
+    In the console: `sudo apt install build-essential` will install clang, gcc, and git.
     
 
 === ":simple-windows: Windows"
