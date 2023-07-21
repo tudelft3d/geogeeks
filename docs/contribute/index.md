@@ -34,7 +34,7 @@ Tabs:
 === ":simple-apple: macOS"
     ++cmd+option+del++
 
-### Code\Files
+### Code and Files
 For inline code use inline code blocks like `Matrix::get_row` (Code surrounded by backticks `).
 
 For multiline code, use multiline code blocks. Try to always state the language the code is in.
@@ -226,5 +226,15 @@ Split instructions/code for different languages into content tabs. You can use t
     ```
     
 ### External links/embeds
+
 #### Inline YouTube
 
+On the page of the YouTube video, select "Share/Embed Video" and copy directly the code in the Markdown page.
+
+```md
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
+and you'll get this:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
