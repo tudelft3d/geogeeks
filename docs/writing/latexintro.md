@@ -15,9 +15,9 @@ If you login with your TUDelft email, you get extra features (TUDelft pays for i
 
 If you want to use LaTeX locally (it's faster to compile) then you need either:
 
-  - [MiKTeX](http://miktex.org/about) (Windows) 
-  - [MacTeX](https://tug.org/mactex) (macOS). 
-  - [TeXLive](https://www.tug.org/texlive) (Linux)
+  - [MiKTeX](http://miktex.org/about) :simple-windows: 
+  - [MacTeX](https://tug.org/mactex) :simple-apple: 
+  - [TeXLive](https://www.tug.org/texlive) :simple-linux:
 
 
 !!! warning 
@@ -49,40 +49,40 @@ Use it as the template for submitting your homeworks for instance.
 
 ### Editors (if you don't use Overleaf)
 
-  - [TeXnicCenter](http://www.texniccenter.org) (Windows)
-  - [TeXStudio](https://www.texstudio.org/) (cross-platform)
-  - [TeXshop](http://pages.uoregon.edu/koch/texshop/) (macOS; which is bundled with MacTeX)
-  - [Visual Studio Code](https://code.visualstudio.com/) as generic editor with the [LaTeX Workshop plugin](https://github.com/James-Yu/LaTeX-Workshop)
-  - [Texmaker](https://www.xm1math.net/texmaker/) (cross-platform)
-  - [Sublime Text](https://www.sublimetext.com) (cross-platform; TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
+  - [TeXnicCenter](http://www.texniccenter.org) :material-open-source-initiative: :simple-windows: 
+  - [TeXStudio](https://www.texstudio.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - [TeXshop](http://pages.uoregon.edu/koch/texshop/) :material-open-source-initiative: :simple-apple: (bundled with MacTeX)
+  - [Visual Studio Code](https://code.visualstudio.com/) as generic editor with the [LaTeX Workshop plugin](https://github.com/James-Yu/LaTeX-Workshop) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - [Texmaker](https://www.xm1math.net/texmaker/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - [Sublime Text](https://www.sublimetext.com) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
 
 ### Managing references
 
-  - [JabRef](http://jabref.sourceforge.net) (cross-platform)
-  - [Zotero](https://www.zotero.org/) (cross-platform; integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
-  - [Mendeley](https://www.mendeley.com/) (cross-platform; integrations for Office and browsers; integrates with Overleaf professional accounts)
-  - [BibDesk](https://bibdesk.sourceforge.io) (macOS)
+  - [JabRef](http://jabref.sourceforge.net) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - [Zotero](https://www.zotero.org/) :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
+  - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts)
+  - [BibDesk](https://bibdesk.sourceforge.io) :material-open-source-initiative:  :simple-apple:
 
 ### Drawing figures
 
-  - Adobe Illustrator (nice, but €€€)
-  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/) (macOS, iPadOS and Windows; €€ but way less than Adobe)
-  - [Inkscape](https://inkscape.org/en/) (cross-platform)
-  - [IPE](http://ipe.otfried.org/) (cross-platform; integrates LaTeX text; great for triangulation and geometric stuff)
+  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
+  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :simple-windows: (€€ but way less than Adobe)
+  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - Adobe Illustrator :simple-apple: :simple-windows:(nice, but €€€)
 
 ### Drawing flowcharts
 
-  - [MathCha](https://www.mathcha.io/)
-  - [draw.io](https://www.draw.io/)
-  - [OmniGraffle](https://www.omnigroup.com/omnigraffle) (macOS and iOS; nice, but €€€)
+  - [MathCha](https://www.mathcha.io/) :material-web:
+  - [draw.io](https://www.draw.io/) :material-web:
+  - [OmniGraffle](https://www.omnigroup.com/omnigraffle) :simple-apple: (nice, but €€€)
 
 ### Equation writers
 
-  - Grapher (macOS Utilities) Graphical interface to write equations that offers the option to copy them as LaTeX expression
-  - LaTeXiT (macOS) utility to write equations in LaTeX and export them for use in other software
-  - [Mathpix Snip](https://mathpix.com) (cross-platform) many cool things with equations
+  - Grapher :simple-apple: (graphical interface to write equations that offers the option to copy them as LaTeX expression)
+  - LaTeXiT :simple-apple: (utility to write equations in LaTeX and export them for use in other software)
+  - [Mathpix Snip](https://mathpix.com) :material-web: (many cool things with equations)
 
 ### Help to make tables
 
-  - [Tables Generator](https://www.tablesgenerator.com/) (LaTeX tables are tough to type and align, this helps greatly to start)# latex-getting-started
+  - [Tables Generator](https://www.tablesgenerator.com/) :material-web: (LaTeX tables are tough to type and align, this helps greatly to start)# latex-getting-started
 Quick LaTeX course
