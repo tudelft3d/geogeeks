@@ -1,9 +1,9 @@
 
-# Mac: Homebrew and Xcode
+# Xcode for macOS
 
 ## Why an alternative solution?
 
-CLion works fine on Mac. However, there are some disadvantages:
+CLion works fine on macOS. However, there are some disadvantages:
 
 * **CLion is not free in all conditions**.
 
@@ -15,25 +15,6 @@ CLion works fine on Mac. However, there are some disadvantages:
     
 	If CLion is set to use **gcc/g++**, the performance difference is much bigger and the error messages are much less helpful.
 
-## Homebrew
-
-The easiest way to install external libraries on Mac is to use [Homebrew](https://brew.sh) (recommended), although it's quite easy to use an alternative like [MacPorts](https://www.macports.org) or to install them manually (follow the Linux or Unix instructions if there are none for Mac).
-
-An example to install CGAL with Homebrew:
-
-```
-brew install cgal
-```
-
-Another example with GDAL:
-
-```
-brew install gdal
-```
-
-If you're using an Apple Silicon (arm64) Mac, the paths used by Homebrew are: `/opt/homebrew/include` (for headers) and `/opt/homebrew/lib` (for libraries).
-
-If you're using an Intel (x86-64) Mac, the paths used by Homebrew are: `/usr/local/include` (for headers) and `/usr/local/lib` (for libraries).
 
 ## Xcode
 

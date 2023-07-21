@@ -9,15 +9,12 @@ CMake can also thus be used to generate a project file, eg in CLion.
 ## Installing CMake
 
 === ":simple-apple: MacOS"
-
     `brew install cmake`
 
 === ":simple-linux: Linux"
-
     `sudo apt-get install build-essential libssl-dev`
 
 === ":simple-windows: Windows"
-
     TODO
 
 
@@ -26,7 +23,6 @@ CMake can also thus be used to generate a project file, eg in CLion.
 If you have a folder in which there is a `CMakeLists.txt` file (this [simple repository](https://github.com/hugoledoux/demo_cmake) shows ones example), follow those steps:
 
 === ":simple-apple: :simple-linux: Unix (MacOS & Linux)"
-
     ```bash
     mkdir build
     cd build
@@ -35,11 +31,10 @@ If you have a folder in which there is a `CMakeLists.txt` file (this [simple rep
     ./demo_cmake
     ```
 
-Notice that we create a new folder `/build` so that all the temporary compilation files are not in the same folder, all created files will go in that one folder (which can be safely deleted).
-The step `cmake ..` means that the `CMakeLists.txt` file is located in the parent folder, its output is a `Makefile` file which allows us to compile the code (and build the binary `demo_cmake`).
+    Notice that we create a new folder `/build` so that all the temporary compilation files are not in the same folder, all created files will go in that one folder (which can be safely deleted).
+    The step `cmake ..` means that the `CMakeLists.txt` file is located in the parent folder, its output is a `Makefile` file which allows us to compile the code (and build the binary `demo_cmake`).
 
 === ":simple-windows: Windows"
-
     TODO
 
 
