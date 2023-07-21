@@ -8,7 +8,7 @@ CMake can also thus be used to generate a project file, eg in CLion.
 
 ## Installing CMake
 
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     `brew install cmake`
 
 === ":simple-linux: Linux"
@@ -22,7 +22,7 @@ CMake can also thus be used to generate a project file, eg in CLion.
 
 If you have a folder in which there is a `CMakeLists.txt` file (this [simple repository](https://github.com/hugoledoux/demo_cmake) shows ones example), follow those steps:
 
-=== ":simple-apple: :simple-linux: Unix (MacOS & Linux)"
+=== ":simple-apple: :simple-linux: Unix (macOS & Linux)"
     ```bash
     mkdir build
     cd build

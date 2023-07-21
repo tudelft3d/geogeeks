@@ -2,7 +2,7 @@
 # How to install a C++ compiler
 
 
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     In the console: `xcode-select --install` will install clang, gcc, and git.
 
 

@@ -2,7 +2,7 @@
 # How to install Python
 
 
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     Python (v3.9+) is already installed in a new Mac.
 
     However, if you want to install several version, delete some if things go bad, manage your [virtual environments](/python/venv/) we recommend you use [pyenv](https://github.com/pyenv/pyenv):

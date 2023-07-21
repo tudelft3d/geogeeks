@@ -19,19 +19,19 @@ Use the following styling: ++ctrl+alt+del++ `++ctrl+alt+del++`
 
 When commands are different across operating systems use the following styles:
 
-Inline: ++ctrl+alt+del++ (++cmd+option+del++ on MacOS) `++ctrl+alt+del++ (++cmd+option+del++ on MacOS)`
+Inline: ++ctrl+alt+del++ (++cmd+option+del++ on macOS) `++ctrl+alt+del++ (++cmd+option+del++ on macOS)`
 
 Tabs:
 ```markdown
 === ":simple-windows: :simple-linux: Windows & Linux"
     ++ctrl+alt+del++
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     ++cmd+option+del++
 ```
 
 === ":simple-windows: :simple-linux: Windows & Linux"
     ++ctrl+alt+del++
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     ++cmd+option+del++
 
 ### Code\Files
@@ -77,7 +77,7 @@ import numpy as np
 ###### OS
 - :simple-windows: Windows: `:simple-windows:` `\iwindows`
 - :simple-linux: Linux: `:simple-linux:` `\ilinux`
-- :simple-apple: MacOS: `:simple-apple:` `\imacos`, `\iapple`
+- :simple-apple: macOS: `:simple-apple:` `\imacos`, `\iapple`
 
 ###### Computer
 - :octicons-terminal-16: Terminal `:octicons-terminal-16:` `\iterminal`
@@ -100,21 +100,21 @@ These should be split into content tabs with consistent tab naming.
     Since the website uses global tabs, only use the predefined names:
 
     - :simple-windows: Windows `:simple-windows: Windows` 
-    - :simple-apple: MacOS `:simple-apple: MacOS` 
+    - :simple-apple: macOS `:simple-apple: macOS` 
     - :simple-linux: Linux `:simple-linux: Linux` 
-    - :simple-apple: :simple-linux: Unix (MacOS & Linux) `:simple-apple: :simple-linux: Unix (MacOS & Linux)` 
+    - :simple-apple: :simple-linux: Unix (macOS & Linux) `:simple-apple: :simple-linux: Unix (macOS & Linux)` 
     - :simple-windows: :simple-linux: Windows & Linux `:simple-windows: :simple-linux: Windows & Linux` (Mainly used for shortcuts)
 
-    Windows/MacOS/Linux. `\os_win_macos_linux`.
+    Windows/macOS/Linux. `\os_win_macos_linux`.
 
     ```md
     === ":simple-windows: Windows"
 
         Windows instructions here
 
-    === ":simple-apple: MacOS"
+    === ":simple-apple: macOS"
 
-        MacOS instructions here
+        macOS instructions here
 
     === ":simple-linux: Linux"
 
@@ -125,9 +125,9 @@ These should be split into content tabs with consistent tab naming.
 
         Windows instructions here
 
-    === ":simple-apple: MacOS"
+    === ":simple-apple: macOS"
 
-        MacOS instructions here
+        macOS instructions here
 
     === ":simple-linux: Linux"
 
@@ -140,7 +140,7 @@ These should be split into content tabs with consistent tab naming.
 
         Windows instructions here
 
-    === ":simple-apple: :simple-linux: Unix (MacOS & Linux)"
+    === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
         Linux instructions here
     ```
@@ -149,20 +149,20 @@ These should be split into content tabs with consistent tab naming.
 
         Windows instructions here
 
-    === ":simple-apple: :simple-linux: Unix (MacOS & Linux)"
+    === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
         Linux instructions here
 
-    Windows&Linux/MacOS `\os_winlinux_macos`
+    Windows&Linux/macOS `\os_winlinux_macos`
 
     ```md
     === ":simple-windows: :simple-linux: Windows & Linux"
         
         Windows & Linux instructions here
         
-    === ":simple-apple: MacOS"
+    === ":simple-apple: macOS"
         
-        MacOS instructions here
+        macOS instructions here
         
     ```
 
@@ -170,17 +170,17 @@ These should be split into content tabs with consistent tab naming.
         
         Windows & Linux instructions here
         
-    === ":simple-apple: MacOS"
+    === ":simple-apple: macOS"
         
-        MacOS instructions here
+        macOS instructions here
 
 === ":simple-windows: Windows"
 
     Windows instructions here
 
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
 
-    MacOS instructions here
+    macOS instructions here
 
 === ":simple-linux: Linux"
 

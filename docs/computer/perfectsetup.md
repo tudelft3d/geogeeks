@@ -6,7 +6,7 @@
     Watch out: this is *really* opiniated!
 
 
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     - [Homebrew](https://brew.sh/) for package manager for pretty much everything
     - **Python**: PyCharm as IDE; pypi as package manager; pyenv as environment manager
     - **C++**: CLion as IDE; brew as package manager; CMake as builder
