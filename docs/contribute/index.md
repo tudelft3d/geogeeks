@@ -78,6 +78,7 @@ import numpy as np
 - :simple-windows: Windows: `:simple-windows:` `\iwindows`
 - :simple-linux: Linux: `:simple-linux:` `\ilinux`
 - :simple-apple: macOS: `:simple-apple:` `\imacos`, `\iapple`
+- :material-web: www application: `:material-web:` 
 
 ###### Computer
 - :octicons-terminal-16: Terminal `:octicons-terminal-16:` `\iterminal`
