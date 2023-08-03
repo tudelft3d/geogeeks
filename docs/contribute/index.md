@@ -97,6 +97,32 @@ Filenames can be added to code blocks with the following syntax
 # code here
 ```
 
+Annotations in code blocks. 
+
+These are used to add extra information that would otherwise clutter the code block. For example libraries that need to be installed, links to other pages on the website, etc.
+
+??? markdown
+    The syntax works by placing a comment using the comment syntax of that specific language. Inside the comment place `(1)!` counting up from 1 for multiple annotations. Below the code block place a numbered list with the comments. The `!` exclamation mark also removes the comment character.
+    ```md
+     ```python
+    import numpy as np
+    import pandas as pd # (1)!
+ 
+    data = np.array([2,3,4]) 
+     ```
+
+    1. Here you can write a comment about the code to further explain.
+    ```
+
+```python
+import numpy as np
+import pandas as pd # (1)!
+
+data = np.array([2,3,4]) 
+```
+
+1. Here you can write a comment about the code to further explain. [Links](index.md) and other **markdown** features are possible here.
+
 ### Icons 
 ###### Languages
 - :simple-python: Python: `:simple-python:` `\ipython`

@@ -11,6 +11,8 @@ theme:
     - navigation.top
     # Add copy button to code blocks
     - content.code.copy
+    # Enable annotations inside code blocks
+    - content.code.annotate
   icon:
     logo: material/console
     edit: material/pencil 
