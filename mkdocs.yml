@@ -9,6 +9,8 @@ theme:
     - content.tabs.link 
     - navigation.tabs
     - navigation.top
+    # Add copy button to code blocks
+    - content.code.copy
   icon:
     logo: material/console
     edit: material/pencil 
@@ -28,7 +30,7 @@ repo_name: tudelft3d/geogeeks
 
 extra_css:
   - stylesheets/extra.css
-  
+
 extra_javascript:
   - js/extra.js
 
