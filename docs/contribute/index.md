@@ -315,3 +315,22 @@ and you'll get this:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     %TODO Write description
+
+#### External web pages/tutorials
+Want to recommend an external web page that is not a video? Use the following admonition block:
+
+??? Markdown
+    ```md
+    !!! external-link "Title of the external resource"
+        Write your text here and add a link to the external resource
+        using the [title](link to webpage) syntax.
+
+        Make the title long, so the link is clearly visible. So instead of [title](link to webpage) you would write [The official GitHub tutorial](link to webpage).
+    ```
+!!! external-link "Title of the external resource"
+    Write your text here and add a link to the external resource
+    using the [title](https://geogeeks.tudelft.nl) syntax.
+
+    Make the title long, so the link is clearly visible. So instead of [title](https://geogeeks.tudelft.nl) you would write [The official GitHub tutorial](https://geogeeks.tudelft.nl).
+
+It's good to write a short text on why the resource is useful, and if possible give a difficulty tag. Also a screenshot of the web page can help.
