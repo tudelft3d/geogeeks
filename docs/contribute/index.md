@@ -86,6 +86,16 @@ Code block with stated language:
 import numpy as np
 ```
 
+Filenames can be added to code blocks with the following syntax
+??? markdown
+    ```
+     ```python title="myfile.py"
+     # code here
+     ```
+    ```
+```python title="myfile.py"
+# code here
+```
 
 ### Icons 
 ###### Languages
