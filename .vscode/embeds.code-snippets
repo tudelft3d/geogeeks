@@ -1,0 +1,16 @@
+{
+    "Video": {
+        "scope": "markdown",
+        "prefix": [
+            "\\video-embed"
+        ],
+        "body": [
+            "!!! video \"$1\"",
+			"    <div style=\"display: flex; justify-content: center; padding-bottom: 1em;\"",
+            "    $1",
+			"    </div>",
+            "    $2",
+			"    ",
+        ]
+    }
+}

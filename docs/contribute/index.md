@@ -252,12 +252,30 @@ Split instructions/code for different languages into content tabs. You can use t
 
 #### Inline YouTube
 
-On the page of the YouTube video, select "Share/Embed Video" and copy directly the code in the Markdown page.
+On the page of the YouTube video, select "Share/Embed Video" and copy directly the code in the following template:
 
 ```md
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+!!! video "%TODO title here"
+    <div style="display: flex; justify-content: center; padding-bottom: 1em;">
+    %TODO Paste the code here
+    </div>
+    %TODO Write description
+```
+Shortcut: `\video-embed`
+
+Then the markdown will look like this:
+```md
+!!! video "%TODO title here"
+    <div style="display: flex; justify-content: center; padding-bottom: 1em;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    %TODO Write description
 ```
 
 and you'll get this:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+!!! video "%TODO title here"
+    <div style="display: flex; justify-content: center; padding-bottom: 1em;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    %TODO Write description
