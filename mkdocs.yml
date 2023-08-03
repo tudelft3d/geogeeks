@@ -28,6 +28,9 @@ repo_name: tudelft3d/geogeeks
 
 extra_css:
   - stylesheets/extra.css
+  
+extra_javascript:
+  - js/extra.js
 
 plugins:
   - search

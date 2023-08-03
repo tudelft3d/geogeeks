@@ -1,0 +1,26 @@
+{
+    "Beginner" : {
+        "scope": "markdown",
+        "prefix": "\\beginner",
+        "body": [
+            "<span class=\"tag beginner-tag\">⭐️ Beginner</span>"
+        ],
+        "description": "Beginner"
+    },
+    "Intermediate" : {
+        "scope": "markdown",
+        "prefix": "\\intermediate",
+        "body": [
+            "<span class=\"tag intermediate-tag\">⭐️ Intermediate</span>"
+        ],
+        "description": "Intermediate"
+    },
+    "Advanced" : {
+        "scope": "markdown",
+        "prefix": "\\advanced",
+        "body": [
+            "<span class=\"tag advanced-tag\">⭐️ Advanced</span>"
+        ],
+        "description": "Advanced"
+    },
+}
