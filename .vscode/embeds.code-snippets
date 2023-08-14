@@ -12,5 +12,15 @@
             "    $2",
 			"    ",
         ]
+    },
+    "External link": {
+        "scope": "markdown",
+        "prefix": [
+            "\\external-link"
+        ],
+        "body": [
+            "!!! external-link \"$1\"",
+            "    $2",
+        ]
     }
 }
