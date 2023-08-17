@@ -59,11 +59,21 @@ The Linux filesystem is a tree, its root is `/`.
 
   - `.` (dot): is the current directory (`pwd` to know where you are)
   - `..`: is the parent directory
+  - `~`: is your home folder
 
-So let's say you want 
-<!-- ```bash -->
+So let's say you want to move to the parent folder: `cd ..`
+
 
 
 ## File permissions
 
 ![](./img/filepermissions.png)
+
+
+## A video explaining all of the above at length
+
+!!! video "Beginner's Guide to the Bash Terminal. <span class="tag beginner-tag">⭐️ Beginner</span>"
+    <div style="display: flex; justify-content: center; padding-bottom: 1em;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oxuRxtrO2Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    %TODO description
