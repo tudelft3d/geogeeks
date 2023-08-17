@@ -60,7 +60,14 @@ Creating local folders in each different project is simple, but at some points y
 We suggest to use [pyenv](https://github.com/pyenv/pyenv) (for macOS/Linux; for Windows use [pyenv-win](https://github.com/pyenv-win/pyenv-win)), which is a rather simple and very useful managers for virtual environments.
 It lets your switch between venv, and you get an overview of the ones you have created (they are globally defined).
 
-For macOS, to install pyenv: `brew install pyenv` (you need to have [Homebrew](https://brew.sh/) installed).
+=== ":simple-apple: macOS"
+    `brew install pyenv` (you need to have [Homebrew](https://brew.sh/) installed).
+  
+=== ":simple-linux: Linux"
+    `curl https://pyenv.run | bash`
+
+=== ":simple-windows: Windows"
+    There are [a few different ways](https://github.com/pyenv-win/pyenv-win#installation).
 
 Some useful commands:
 

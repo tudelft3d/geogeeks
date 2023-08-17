@@ -3,8 +3,8 @@
 
 In Geomatics, you'll do a lot of coding, and in a lot of assignments, you'll do this as a team. On this page you'll find a list of the different methods for collaborating and our recommendations. Underneath, you'll find a full list of the pros and cons of each method.
 
-- **Meeting up and writing everything together on the same computer**: Recommended for helping eachother, and for starting new projects. Can be used in combination with a version control system (see below).
-- **Sending eachother snippets of code**: Only recommended for helping eachother if meeting up is not possible. Not recommended for projects.
+- **Meeting up and writing everything together on the same computer**: Recommended for helping each other, and for starting new projects. Can be used in combination with a version control system (see below).
+- **Sending each other snippets of code**: Only recommended for helping each other if meeting up is not possible. Not recommended for projects.
 - **Each person works on their own file and at the end you combine them**: Not recommended without also using a version control system.
 - **Using realtime code collaboration tools (like Google Docs but for coding)**:  Not recommended without also using a version control system.
 - **Using a version control system like git**: Highly recommended to learn and start using as early as possible, even for small projects.
@@ -36,7 +36,7 @@ In Geomatics, you'll do a lot of coding, and in a lot of assignments, you'll do 
         </td>
     </tr>
     <tr>
-        <td>Sending eachother <b>snippets of code</b>.</td>
+        <td>Sending each other <b>snippets of code</b>.</td>
         <td>
             <ul>
                 <li>Simple and quick.</li>

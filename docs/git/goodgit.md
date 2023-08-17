@@ -4,6 +4,9 @@
 !!! note
     This list is inspired by the [JOSS review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html#review-items) and by the [Data Carpentry project's reproducibility](https://github.com/datacarpentry/rr-intro/blob/gh-pages/checklist.md).
 
+This lists all the important parts of a good Git repository, that is a repository that others will want to use/replicate/browse.
+If you work alone with your own private repository, those tips are not necessary useful.
+They are for the final code that will come with your MSc thesis.
 
 ## General
 - [ ] the repository should be publicly available
