@@ -42,6 +42,7 @@ plugins:
 #   - mkdocstrings
 
 markdown_extensions:
+  - footnotes
   - admonition
   - pymdownx.betterem
   - pymdownx.details
