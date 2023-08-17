@@ -19,7 +19,8 @@ theme:
     view: material/eye
   name: material
   palette:
-    primary: blue grey
+    # primary: teal
+    primary: custom
 
 repo_url: https://github.com/tudelft3d/geogeeks
 
