@@ -1,5 +1,5 @@
 
-# Figures, tables, and flowcharts
+# LaTeX Figures, tables, and flowcharts
 
 
 ## Figures
@@ -22,14 +22,9 @@ Best vector graphics drawing tools:
   - Adobe Illustrator :simple-apple: :simple-windows: (nice, but €€€)
 
 
-
-
-
 ## Tables 
 
 Tables are notoriously difficult to make in LaTeX.
-
-
 
 !!! tip 
     [LaTeX package booktabs](https://nhigham.com/2019/11/19/better-latex-tables-with-booktabs/) is strongly recommended!
@@ -37,6 +32,9 @@ Tables are notoriously difficult to make in LaTeX.
     ```tex
     The package \texttt{booktabs} permits you to make nicer tables than the basic ones in \LaTeX.
     See for instance \autoref{tab:example}.
+
+    \usepackage{booktabs}
+    ...
     \begin{table}
       \centering
       \begin{tabular}{@{}lrrcrrc@{}} \toprule
@@ -57,5 +55,7 @@ Tables are notoriously difficult to make in LaTeX.
 
 ## Flowcharts
 
-  - [draw.io](https://app.diagrams.net) :material-web:
+![](./fc.svg)
+
+  - [draw.io](https://app.diagrams.net) :material-web: (free, simple, all you probably need)
   - [OmniGraffle](https://www.omnigroup.com/omnigraffle) :simple-apple: (nice, but €€€)
