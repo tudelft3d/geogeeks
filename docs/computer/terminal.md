@@ -38,7 +38,7 @@ It's often a quicker and more precise way to interact with the computer, and it 
 
 !!! note
     Observe that the commands for the PowerShell and those of macOS/Linux will differ slightly.
-    For Windows, you can always install [WSL](/computer/wsl/) and use the Linux Terminal.
+    For Windows, you can always install [WSL](wsl.md) and use the Linux Terminal.
 
 
 ## Basic (bash) commands

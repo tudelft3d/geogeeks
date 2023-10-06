@@ -24,10 +24,10 @@
 
 1. Click on the 'Edit this page' 
 2. You have to login to GitHub
-3. Modify the Markdown text following our [style guide](/contribute/)
+3. Modify the Markdown text following our [style guide](contribute/index.md)
 4. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 
 ## Style guide for icons and tabs
 
-[Style guide](/contribute/)
+[Style guide](contribute/index.md)

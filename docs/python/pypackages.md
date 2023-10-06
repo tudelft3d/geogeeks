@@ -2,7 +2,7 @@
 # Useful Python packages for geomatics
 
 !!! info "How to install Python packages"
-    Please see our [Install Python packages using pip guide](/python.pip).
+    Please see our [Install Python packages using pip guide](pip.md).
 
 - [cjio](https://github.com/cityjson/cjio): Python CLI + API to process and manipulate [CityJSON](https://www.cityjson.org/) files
 - [Fiona](https://github.com/Toblerity/Fiona): to read/write GIS data, the "Pythonic GDAL"

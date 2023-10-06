@@ -12,7 +12,7 @@ To use it, you'll need to [create a (free) GitHub account](https://docs.github.c
 
 ## Git in the terminal
 
-If you use Linux, or if you want to use the [terminal](/computer/terminal/), you can install Git this way:
+If you use Linux, or if you want to use the [terminal](../computer/terminal.md), you can install Git this way:
 
 === ":simple-apple: macOS"
     In the console: `xcode-select --install` will install clang, gcc, and git.

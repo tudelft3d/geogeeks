@@ -74,7 +74,7 @@ Different operating systems have different package managers.
         3. The command to install this package
         4. A copy button for the installation command
 
-        Simply copy this command, and run it in your Powershell [terminal](/computer/terminal)
+        Simply copy this command, and run it in your Powershell [terminal](terminal.md)
 
     !!! tip "More commands"
         Chocolatey has more commands, for things like updating and uninstalling. For these, please see the [official documentation](https://docs.chocolatey.org/en-us/choco/commands/) (specifically `info`, `uninstall`, and `upgrade`).
@@ -83,7 +83,7 @@ Different operating systems have different package managers.
     
     For MacOS, we recommend the [Homebrew package manager](https://brew.sh). It's free and open source.
     
-    **To install Homebrew, simply run this command in your [terminal](/computer/terminal) and follow the instructions.**
+    **To install Homebrew, simply run this command in your [terminal](terminal.md) and follow the instructions.**
 
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -129,14 +129,14 @@ Different operating systems have different package managers.
         3.  Copy button for the installation command
         4.  Version of the package you're installing.
 
-        Simply copy this command, and run it in your [terminal](/computer/terminal)
+        Simply copy this command, and run it in your [terminal](terminal.md)
 
     !!! tip "More commands"
         Homebrew has more commands, for things like updating and uninstalling. For these, please see the [official documentation](https://docs.brew.sh/Manpage) (specifically `info`, `uninstall`, and `upgrade`).
 
 === ":simple-linux: Linux"
     
-    This tab is geared towards Geomatics students using Ubuntu (under [Windows Subsystem for Linux](/computer/wsl)). If you're using another distro, we recommend finding a package management guide specific to that distro.
+    This tab is geared towards Geomatics students using Ubuntu (under [Windows Subsystem for Linux](wsl.md)). If you're using another distro, we recommend finding a package management guide specific to that distro.
 
     Ubuntu comes installed with the `apt` package manager. It has a huge collection of available packages.
 

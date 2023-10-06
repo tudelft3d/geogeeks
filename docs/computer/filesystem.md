@@ -8,7 +8,7 @@ Developing software means that you'll interact with the file system of your comp
     </div>
     This explains the basics: what is a file, an extension, a folder, etc.
     It is of the utmost importance to fully understand this!
-    Also, since you'll be during the MSc working with Linux, you should also understand how [its file system works](/computer/terminal/) (it is the same as macOS but rather different from Windows).
+    Also, since you'll be during the MSc working with Linux, you should also understand how [its file system works](terminal.md) (it is the same as macOS but rather different from Windows).
 
 !!! video "Understanding the file system. Part 2. <span class="tag beginner-tag">⭐️ Beginner</span>"
     <div style="display: flex; justify-content: center; padding-bottom: 1em;">

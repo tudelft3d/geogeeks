@@ -7,7 +7,7 @@
 We recommend installing and managing Python using "pyenv". Pyenv is a tool that allows you to *install* multiple versions of Python, and *select* which specific version is *active*.
 
 === ":simple-apple: macOS"
-    To install Python via pyenv, make sure you have [Homebrew](/computer/packagemanager) installed and then run the following commands in your [terminal](/computer/terminal).
+    To install Python via pyenv, make sure you have [Homebrew](../computer/packagemanager.md) installed and then run the following commands in your [terminal](../computer/terminal.md).
 
     **Step 1: Install pyenv using Homebrew**
     ```bash
@@ -26,7 +26,7 @@ We recommend installing and managing Python using "pyenv". Pyenv is a tool that 
    
 
 === ":simple-linux: Linux"
-    Run the following commands in your [terminal](/computer/terminal).
+    Run the following commands in your [terminal](../computer/terminal.md).
 
     **Step 1: Install pyenv**
     ```bash
@@ -36,14 +36,14 @@ We recommend installing and managing Python using "pyenv". Pyenv is a tool that 
 === ":simple-windows: Windows"
     Note: pyenv was created for MacOS and Linux, the version for Windows is called "pyenv-win". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
     
-    To install Python via pyenv-win, make sure you have [Chocolatey](/computer/packagemanager) installed and then run the following commands in your [Powershell terminal](/computer/terminal).
+    To install Python via pyenv-win, make sure you have [Chocolatey](../computer/packagemanager.md) installed and then run the following commands in your [Powershell terminal](../computer/terminal.md).
 
     **Step 1: Install pyenv-win using Chocolatey**
     ```powershell
     choco install pyenv-win
     ```
 
-    Restart your terminal after running this command. Are you getting an error when using pyenv in the following steps? Make sure you followed all instructions in the [Chocolatey installation guide](/computer/packagemanager).
+    Restart your terminal after running this command. Are you getting an error when using pyenv in the following steps? Make sure you followed all instructions in the [Chocolatey installation guide](../computer/packagemanager.md).
 
     !!! warning "Important, disable Python Microsoft Store link"
         On Windows, by default the command `python` will open the Microsoft Store for you to download Python. Disable this with these steps:
