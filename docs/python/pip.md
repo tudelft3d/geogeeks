@@ -1,9 +1,9 @@
 # Installing Python Packages using pip
 <span class="tag beginner-tag">⭐️ Beginner</span>
 
-!!! warning "This guide presumes you have [installed Python using pyenv](/python/install)."
+!!! warning "This guide presumes you have [installed Python using pyenv](install.md)."
 
-!!! info "All commands shown on this page are run in the [terminal](computer/terminal)."
+!!! info "All commands shown on this page are run in the [terminal](../computer/terminal.md)."
 
 **Step 1: Make sure you are in the correct Python version**
 ```bash
@@ -11,7 +11,7 @@ pyenv version
 ```
 It should print the version you've installed, so `3.11.5` from our Python installation tutorial. Does it not? Run `pyenv global 3.11.5` to activate it.
 
-Are you using [virtual environments](python/venv)? Then make sure it prints out the name of the environment you want to be in.
+Are you using [virtual environments](venv.md)? Then make sure it prints out the name of the environment you want to be in.
 
 If you are ever wondering why you get a `ModuleNotFoundError` even though you've just installed the library, it's probably because you had a different version of Python activated than what you're using to run your code.
 
