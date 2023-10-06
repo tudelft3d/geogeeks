@@ -23,7 +23,7 @@ It's often a quicker and more precise way to interact with the computer, and it 
 
 
 === ":simple-apple: macOS"
-    It's built-in, it's called `Terminal.app` and it's with the other applications.
+    It's built-in, it's called `Terminal.app` and it's in the `Applications` folder.
 
 === ":simple-linux: Linux"
     It's built-in, either called `GNOME Terminal` or `Konsole`.
@@ -33,12 +33,12 @@ It's often a quicker and more precise way to interact with the computer, and it 
     Instead, use the `PowerShell`, which is already installed on all Windows machine.
 
 !!! external-link "A terminal emulator on the web"
-    [Useful to fiddle and learn the basic commands](https://www.terminaltemple.com/).
+    [Useful to fiddle and learn the basic commands of Linux/macOS](https://www.terminaltemple.com/).
 
 
 !!! note
     Observe that the commands for the PowerShell and those of macOS/Linux will differ slightly.
-    For Windows, you can always install [WSL](wsl.md) and use the Linux Terminal.
+    For Windows, you can always install [WSL](wsl.md) and use the Linux terminal.
 
 
 ## Basic (bash) commands

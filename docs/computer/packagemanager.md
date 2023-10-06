@@ -5,7 +5,7 @@
 
  A package manager is a bit like an app store with many tools for programmers. It helps install, manage, update, and delete programs and tools. We highly recommend using a package manager on your computer.
 
-Especially on MacOS and Linux, package managers are so popular that many programs recommend using a package manager as the easiest way to install their software.
+Especially on macOS and Linux, package managers are so popular that many programs recommend using a package manager as the easiest way to install their software.
 
 ??? tip "Still not convinced? Here is an (extreme) example"
 
@@ -13,7 +13,7 @@ Especially on MacOS and Linux, package managers are so popular that many program
 
     If we go to the [official gcc installation instructions](https://gcc.gnu.org/install/), the installation process is split up into 5 steps. These steps include a list of around 30 other pieces of software you will first need to install, and a page with more than 10.000 words about all the configuration options. Click the link above to see the installation instructions for yourself.
 
-    With the package manager Homebrew (MacOS) you can simply run
+    With the package manager Homebrew (macOS) you can simply run
     ```bash
     brew install gcc
     ```
@@ -79,9 +79,9 @@ Different operating systems have different package managers.
     !!! tip "More commands"
         Chocolatey has more commands, for things like updating and uninstalling. For these, please see the [official documentation](https://docs.chocolatey.org/en-us/choco/commands/) (specifically `info`, `uninstall`, and `upgrade`).
     
-=== ":simple-apple: MacOS"
+=== ":simple-apple: macOS"
     
-    For MacOS, we recommend the [Homebrew package manager](https://brew.sh). It's free and open source.
+    For macOS, we recommend the [Homebrew package manager](https://brew.sh). It's free and open source.
     
     **To install Homebrew, simply run this command in your [terminal](terminal.md) and follow the instructions.**
 
