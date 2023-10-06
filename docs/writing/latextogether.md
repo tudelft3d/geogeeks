@@ -3,7 +3,7 @@
 
 !!! note
 
-    This is taken from [*The Rules for happily collaborating on a LaTeX document*©](https://3d.bk.tudelft.nl/hledoux/blog/rules-happy-latex/)
+    This is taken from [*The Rules for happily collaborating on a LaTeX document*©](https://3d.bk.tudelft.nl/hledoux/blog/rules-happy-latex/).
 
 The 10 rules you should follow if you're writing a LaTeX documents with other people.
 
