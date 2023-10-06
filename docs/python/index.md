@@ -1,4 +1,5 @@
-# Python
+# Overview
+
 Python is a programming language that's easy to read, write, and understand. It's used a lot in Geomatics because:
 
 - **Quick to write:** When making scripts for data analysis, most of the time you care a lot about how fast you can *write* the code and not too much about how fast the code will *run*. Python is very quick to *write*.
