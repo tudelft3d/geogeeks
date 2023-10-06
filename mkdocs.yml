@@ -22,14 +22,14 @@ theme:
     primary: deep purple
     # primary: custom
 
+site_url: https://tudelft3d.github.io/geogeeks
 repo_url: https://github.com/tudelft3d/geogeeks
+edit_uri: edit/main/docs/
+repo_name: tudelft3d/geogeeks
 
 # nav:
   # - Home222: index.md
 
-
-edit_uri: edit/main/docs/
-repo_name: tudelft3d/geogeeks
 
 extra_css:
   - stylesheets/extra.css
