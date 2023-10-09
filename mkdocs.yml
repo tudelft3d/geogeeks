@@ -34,7 +34,9 @@ edit_uri: edit/main/docs/
 repo_name: tudelft3d/geogeeks
 
 nav:
-  - Home: index.md
+  - "Home": 
+    - index.md
+    - contribute.md
   - Computer & Software:
     - computer/index.md
     - computer/filesystem.md
