@@ -1,4 +1,4 @@
-# Overview
+# Python
 
 Python is a programming language that's easy to read, write, and understand. It's used a lot in Geomatics because:
 
