@@ -13,6 +13,12 @@ theme:
     - content.code.copy
     # Enable annotations inside code blocks
     - content.code.annotate
+    # - navigation.footer
+    - navigation.indexes
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.top
+    # - navigation.tracking
   icon:
     logo: material/console
     edit: material/pencil 
@@ -27,9 +33,53 @@ repo_url: https://github.com/tudelft3d/geogeeks
 edit_uri: edit/main/docs/
 repo_name: tudelft3d/geogeeks
 
-# nav:
-  # - Home222: index.md
-
+nav:
+  - Home: index.md
+  - Computer & Software:
+    - computer/index.md
+    - computer/filesystem.md
+    - computer/terminal.md
+    - computer/packagemanager.md
+    - computer/perfectsetup.md
+    - computer/wsl.md
+    - computer/bestsoftware.md
+  - Programming: 
+    - programming/index.md
+    - programming/chooselanguage.md
+    - programming/collabcode.md
+    - programming/debugging.md
+  - Python: 
+    - python/index.md
+    - python/install.md
+    - python/pip.md
+    - python/pypackages.md
+    - python/venv.md
+  - C++:
+    - cpp/install.md
+    - cpp/cmake.md
+    - cpp/installlibs.md
+    - cpp/python2cpp.md
+    - cpp/vcpkgwindows.md
+    - cpp/wslclion.md
+    - cpp/xcode.md
+  - Git:
+    - git/gitintro.md
+    - git/install.md
+    - git/goodgit.md
+    - git/msccode.md
+    - git/githubactions.md
+  - Research:
+    - research/researchtips.md
+    - research/howtogoogle.md
+  - Writing:
+    - writing/index.md
+    - writing/figstables.md
+    - writing/latexintro.md
+    - writing/latextogether.md
+    - writing/markdown.md    
+  - Misc:
+    - misc/ssh.md
+    - misc/delftblue.md
 
 extra_css:
   - stylesheets/extra.css

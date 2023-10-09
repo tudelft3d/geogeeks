@@ -1,5 +1,5 @@
 
-# Overview
+# Writing assignments/docs/thesis/etc
 
 
 During the MSc Geomatics, you'll have to write reports, assignments, an MSc thesis, documentation for code, etc.
