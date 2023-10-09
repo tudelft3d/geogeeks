@@ -33,6 +33,17 @@ repo_url: https://github.com/tudelft3d/geogeeks
 edit_uri: edit/main/docs/
 repo_name: tudelft3d/geogeeks
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - js/extra.js
+
+plugins:
+  - search
+  - awesome-pages
+#   - mkdocstrings
+
 nav:
   - "Home": 
     - index.md
@@ -84,16 +95,7 @@ nav:
     - misc/ssh.md
     - misc/delftblue.md
 
-extra_css:
-  - stylesheets/extra.css
 
-extra_javascript:
-  - js/extra.js
-
-plugins:
-  - search
-  - awesome-pages
-#   - mkdocstrings
 
 markdown_extensions:
   - footnotes
