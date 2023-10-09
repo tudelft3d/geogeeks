@@ -65,6 +65,7 @@ nav:
     - cpp/wslclion.md
     - cpp/xcode.md
   - Git:
+    - git/index.md
     - git/gitintro.md
     - git/install.md
     - git/goodgit.md
