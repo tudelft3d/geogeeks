@@ -80,10 +80,10 @@ nav:
     - git/gitintro.md
     - git/install.md
     - git/goodgit.md
-    - git/msccode.md
     - git/githubactions.md
   - Research:
     - research/researchtips.md
+    - research/msccode.md
     - research/howtogoogle.md
   - Writing:
     - writing/index.md
