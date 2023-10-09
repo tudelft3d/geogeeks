@@ -59,7 +59,7 @@ Use it as the template for submitting your homeworks for instance.
 ### Managing references
 
   - [JabRef](http://jabref.sourceforge.net) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - [Zotero](https://www.zotero.org/) :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
+  - [Zotero](https://www.zotero.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
   - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts)
   - [BibDesk](https://bibdesk.sourceforge.io) :material-open-source-initiative:  :simple-apple:
 
