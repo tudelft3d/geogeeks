@@ -19,10 +19,14 @@ If you want to use LaTeX locally (it's faster to compile) then you need either:
   - [MacTeX](https://tug.org/mactex) :simple-apple: 
   - [TeXLive](https://www.tug.org/texlive) :simple-linux:
 
+You can also combine the best of both worlds (overleaf and local), by using either the [Git Integration](https://www.overleaf.com/learn/how-to/Git_integration) to treat your Overleaf project as a remote repository or by using [GitHub synchronisation](https://www.overleaf.com/learn/how-to/GitHub_Synchronization) linking your project to a GitHub repository. Check the recommendations for local editors below. 
 
 !!! warning 
 
     For small documents Overleaf is great. But it becomes rather slow for medium to large documents, and then using LaTeX locally is probably a better idea.
+
+    Beware that pushes from Git/GitHub can result in the loss or displacement of track changes and comments, so make sure you don't mix the two (and make your supervisors aware).
+
 
 
 ## Getting started
@@ -47,7 +51,7 @@ Use it as the template for submitting your homeworks for instance.
 
 ## Which software to use? 
 
-### Editors (if you don't use Overleaf)
+### Editors (if you don't use Overleaf, or use Git/GitHub to edit your Overleaf project locally)
 
   - [TeXnicCenter](http://www.texniccenter.org) :material-open-source-initiative: :simple-windows: 
   - [TeXStudio](https://www.texstudio.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
@@ -55,6 +59,8 @@ Use it as the template for submitting your homeworks for instance.
   - [Visual Studio Code](https://code.visualstudio.com/) as generic editor with the [LaTeX Workshop plugin](https://github.com/James-Yu/LaTeX-Workshop) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
   - [Texmaker](https://www.xm1math.net/texmaker/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
   - [Sublime Text](https://www.sublimetext.com) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
+
+For some of these editors, you can also add local grammar/spell checking, e.g. [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) for Visual Studio Code or [LanguageTool](https://packagecontrol.io/packages/LanguageTool) for Sublime Text.
 
 ### Managing references
 
