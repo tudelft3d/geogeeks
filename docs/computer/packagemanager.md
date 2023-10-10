@@ -23,62 +23,6 @@ Especially on macOS and Linux, package managers are so popular that many program
 
 Different operating systems have different package managers.
 
-=== ":simple-windows: Windows"
-    
-    For Windows, we recommend the [Chocolatey package manager](https://chocolatey.org). We'll be using the free open source version.
-
-    We recommend it over it's alternatives because of higher availability of packages, but admittedly the authors of this website do not have much experience with Windows package managers.
-
-    The following instructions were taken from the [official Chocolatey installation guide](https://chocolatey.org/install).
-
-    **Step 1: Open your Powershell terminal as administrator**
-
-    Using Windows search, search for Powershell, right-click it, and open as administrator.
-
-    **Step 2: Set execution permissions**
-
-    Run this command in Powershell
-    ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process
-    ```
-    You'll have to confirm by typing `Y` and pressing enter. This option allows us to run scripts in Powershell. (Note, in the official guide they also mention `Set-ExecutionPolicy AllSigned` but this option will not allow tools like pyenv to run.)
-
-    **Step 3: Install Chocolatey**
-
-    Paste the following into Powershell and press enter.
-    ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    ```
-    Run into an error? Perhaps the command has been updated on the [official installation guide](https://chocolatey.org/install).
-
-    **Chocolatey is now installed!**
-
-    !!! tip "How to install packages using Chocolatey"
-        You need to know the name of the package you're installing. Often it's the same (i.e. QGIS is `qgis`), but sometimes it's different and you need to look it up (See Where to find available packages).
-
-        For example, if we want to install git we run
-        ```powershell
-        choco install git
-        ```
-        in Powershell. It will start printing the progress of the installation and tell you when it's done.
-
-    ??? tip "Where to find available packages?"
-        On the official [community packages page](https://community.chocolatey.org/packages) you can find the list of almost 10.000 available packages.
-
-        ![](img/chocolatey_example.png)
-
-        In this example, we've searched for "qgis". The results show:
-
-        1. The latest version of QGIS
-        2. The LTR version of QGIS, a separate version that has less bugs (usually recommended by teachers).
-        3. The command to install this package
-        4. A copy button for the installation command
-
-        Simply copy this command, and run it in your Powershell [terminal](terminal.md)
-
-    !!! tip "More commands"
-        Chocolatey has more commands, for things like updating and uninstalling. For these, please see the [official documentation](https://docs.chocolatey.org/en-us/choco/commands/) (specifically `info`, `uninstall`, and `upgrade`).
-    
 === ":simple-apple: macOS"
     
     For macOS, we recommend the [Homebrew package manager](https://brew.sh). It's free and open source.
@@ -171,3 +115,59 @@ Different operating systems have different package managers.
 
     !!! tip "More commands"
         apt has more commands, for things like updating and uninstalling. For these, we recommend [this tutorial](https://linuxize.com/post/how-to-use-apt-command/).
+
+=== ":simple-windows: Windows"
+    
+    For Windows, we recommend the [Chocolatey package manager](https://chocolatey.org). We'll be using the free open source version.
+
+    We recommend it over it's alternatives because of higher availability of packages, but admittedly the authors of this website do not have much experience with Windows package managers.
+
+    The following instructions were taken from the [official Chocolatey installation guide](https://chocolatey.org/install).
+
+    **Step 1: Open your Powershell terminal as administrator**
+
+    Using Windows search, search for Powershell, right-click it, and open as administrator.
+
+    **Step 2: Set execution permissions**
+
+    Run this command in Powershell
+    ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process
+    ```
+    You'll have to confirm by typing `Y` and pressing enter. This option allows us to run scripts in Powershell. (Note, in the official guide they also mention `Set-ExecutionPolicy AllSigned` but this option will not allow tools like pyenv to run.)
+
+    **Step 3: Install Chocolatey**
+
+    Paste the following into Powershell and press enter.
+    ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
+    Run into an error? Perhaps the command has been updated on the [official installation guide](https://chocolatey.org/install).
+
+    **Chocolatey is now installed!**
+
+    !!! tip "How to install packages using Chocolatey"
+        You need to know the name of the package you're installing. Often it's the same (i.e. QGIS is `qgis`), but sometimes it's different and you need to look it up (See Where to find available packages).
+
+        For example, if we want to install git we run
+        ```powershell
+        choco install git
+        ```
+        in Powershell. It will start printing the progress of the installation and tell you when it's done.
+
+    ??? tip "Where to find available packages?"
+        On the official [community packages page](https://community.chocolatey.org/packages) you can find the list of almost 10.000 available packages.
+
+        ![](img/chocolatey_example.png)
+
+        In this example, we've searched for "qgis". The results show:
+
+        1. The latest version of QGIS
+        2. The LTR version of QGIS, a separate version that has less bugs (usually recommended by teachers).
+        3. The command to install this package
+        4. A copy button for the installation command
+
+        Simply copy this command, and run it in your Powershell [terminal](terminal.md)
+
+    !!! tip "More commands"
+        Chocolatey has more commands, for things like updating and uninstalling. For these, please see the [official documentation](https://docs.chocolatey.org/en-us/choco/commands/) (specifically `info`, `uninstall`, and `upgrade`).

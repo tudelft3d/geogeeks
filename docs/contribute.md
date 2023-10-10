@@ -2,7 +2,7 @@
 status: new
 ---
 
-# Spotted an error? 
+# (spotted an error?) 
 
 !!! warning "Spotted an error? A page is missing?"
 
