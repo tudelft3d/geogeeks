@@ -14,19 +14,36 @@ Manually editing your `.bib` is probably a bad idea, we suggest you use a GUI th
   - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts)
   - [BibDesk](https://bibdesk.sourceforge.io) :material-open-source-initiative:  :simple-apple:
 
+!!! warning
+    BibTeX will capitalise the titles automatically according to the [bibliography style (`*.bib`)](https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles) you choose.
+    This can be problematic for acronyms and many words (eg GIS, CityJSON, 3D, Delft Univeristy of Technology, etc.).
+    You can control the capitalisation of those words by adding curly-brackets around those words, like in the following:
+    ```tex
+    @article{Guth21,
+        author = {Elvis Presley and Tera M. Smith},
+        title = {Point cloud and {ICESat-2} evaluation of {3D} datasets in {Delft}},
+        journal = {Transactions in {GIS}},
+        number = {2},
+        pages = {245--261},
+        volume = {15},
+        year = {2011}
+    }
+    ```
+    
+## How to obtain well-formatted BibTeX entries? 
 
-## How to obtain well-formatted BibTeX entries 
 
-!!! tip "Tip #1: Paste a DOI"
 
-    With BibDesk (and probably others) you can simply copy the [DOI](https://www.scribbr.com/citing-sources/what-is-a-doi/) and a new entry nicely formatted will be created (might need minimal manual work).
+### Option #1: Paste a DOI
 
-!!! tip "Tip #2: Use www.doi2bib.org"
+With BibDesk (and probably others) you can simply copy the [DOI](https://www.scribbr.com/citing-sources/what-is-a-doi/) and a new entry nicely formatted will be created (might need minimal manual work).
 
-    You could alternatively use [www.doi2bib.org](https://www.doi2bib.org) to obtain nicely formatted BibTeX entries.
+### Option #2: Use www.doi2bib.org
 
-!!! tip "Tip #3: Use ChatGPT"
+You could alternatively use [www.doi2bib.org](https://www.doi2bib.org) to obtain nicely formatted BibTeX entries.
 
-    ChatGPT can also take the text of a reference in a PDF and BibTeX format it, see a simple example:
+### Option #3: Use ChatGPT
 
-    ![](img/chatgpt.png)
+ChatGPT can also take the text of a reference in a PDF and BibTeX format it, see a simple example:
+
+![](img/chatgpt.png)
