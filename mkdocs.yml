@@ -87,10 +87,11 @@ nav:
     - research/howtogoogle.md
   - Writing:
     - writing/index.md
-    - writing/figstables.md
     - writing/latexintro.md
-    - writing/latextogether.md
     - writing/markdown.md    
+    - writing/figstables.md
+    - writing/references.md
+    - writing/latextogether.md
   - Misc:
     - misc/ssh.md
     - misc/delftblue.md
