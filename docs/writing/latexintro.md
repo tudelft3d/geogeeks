@@ -46,7 +46,7 @@ Use it as the template for submitting your homeworks for instance.
 
 !!! info
 
-    LaTeX is great but there are often 37 ways to accomplish something... The template we give you shows you what we think is "the best to do X"
+    LaTeX is great but there are often 37 ways to accomplish something... The simple demo shows you what we think is "the best to do X".
 
 
 ## Which software to use? 
