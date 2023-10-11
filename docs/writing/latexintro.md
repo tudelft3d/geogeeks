@@ -42,7 +42,7 @@ You can also combine the best of both worlds (overleaf and local), by using eith
 
 :material-download-box-outline: [this simple demo](https://github.com/tudelft3d/latex-getting-started/tree/main/template) gives you tips and tricks to do most of the useful things in LaTeX.
 
-Use it as the template for submitting your homeworks for instance.
+Use it as the template for submitting your homework for instance.
 
 !!! info
 
