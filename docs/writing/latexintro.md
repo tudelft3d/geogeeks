@@ -60,13 +60,15 @@ Use it as the template for submitting your homeworks for instance.
   - [Texmaker](https://www.xm1math.net/texmaker/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
   - [Sublime Text](https://www.sublimetext.com) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
 
-For some of these editors, you can also add local grammar/spell checking, e.g. [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) for Visual Studio Code or [LanguageTool](https://packagecontrol.io/packages/LanguageTool) for Sublime Text.
+!!! info
+    
+    For some of these editors, you can also add local grammar/spell checking, e.g. [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex) for Visual Studio Code or [LanguageTool](https://packagecontrol.io/packages/LanguageTool) for Sublime Text.
 
 ### Managing references
 
   - [JabRef](http://jabref.sourceforge.net) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
   - [Zotero](https://www.zotero.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
-  - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts)
+  <!-- - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts) -->
   - [BibDesk](https://bibdesk.sourceforge.io) :material-open-source-initiative:  :simple-apple:
 
 ### Drawing figures
@@ -90,5 +92,4 @@ For some of these editors, you can also add local grammar/spell checking, e.g. [
 
 ### Help to make tables
 
-  - [Tables Generator](https://www.tablesgenerator.com/) :material-web: (LaTeX tables are tough to type and align, this helps greatly to start)# latex-getting-started
-Quick LaTeX course
+  - [Tables Generator](https://www.tablesgenerator.com/) :material-web: (LaTeX tables are tough to type and align, this helps greatly to start)
