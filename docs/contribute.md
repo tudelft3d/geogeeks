@@ -6,7 +6,7 @@ status: new
 
 !!! warning "Spotted an error? A page is missing?"
 
-    Then fix it!
+    __Then fix it!__
 
     geogeeks will only stay up-to-date if you help us!
 
