@@ -16,8 +16,7 @@ CMake can also thus be used to generate a project file, eg in CLion.
     `sudo apt-get install build-essential libssl-dev`
 
 === ":simple-windows: Windows"
-    `choco install cmake` __OR__ If you installed [CLion](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) then CMAKE is also installed.
-
+    If you installed [CLion](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) then CMAKE is also installed __OR__ `choco install cmake`
 
 ## CMake with the console
 

@@ -21,7 +21,7 @@ It allows us to avoid this (from [xkcd-1987](https://xkcd.com/1987/)):
 
     Some useful commands:
 
-      - create a new venv (based on the current global version): `penv virtualenv myenv1`
+      - create a new venv called "myenv1" (based on the current global version): `penv virtualenv myenv1`
       - activate it: `penv activate myenv1`
       - deactivate it: `pyenv deactivate`
 
