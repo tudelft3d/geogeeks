@@ -12,7 +12,7 @@
     - **C++**: [CLion](https://www.jetbrains.com/clion/) as IDE; [Homebrew](https://brew.sh/) as package manager; [CMake](../cpp/cmake.md) as builder
     - **GIS**: [QGIS](https://www.qgis.org/en/site/forusers/download.html)
     - **3D data**: [MeshLab](https://www.meshlab.net/) as viewer/editor of 2-manifold meshes; [CloudCompare](https://www.cloudcompare.org/) for point clouds; [ParaView](https://www.paraview.org/) for volumetric meshes
-    - **LaTeX**: [MacTeX](https://www.tug.org/mactex/mactex-download.html) as compiler; your [favourite text editor](bestsoftware.md) as IDE; BibDesk for BibTeX management (both bundled with MacTeX)
+    - **LaTeX**: [MacTeX](https://www.tug.org/mactex/mactex-download.html) as compiler; your [favourite text editor](bestsoftware.md) as IDE; [JabRef](https://www.jabref.org/) for BibTeX management
 
 === ":simple-linux: Linux"
     - **Package manager**: [APT](https://en.wikipedia.org/wiki/APT_(software)) for pretty much everything (we assume you use a Debian-based version like Ubuntu)
