@@ -27,6 +27,6 @@ Watch out, it's a bit of the far-west out there: some processors might not be ab
 
   - PyCharm/CLion will preview automatically any Markdown files
   - any file `.md` pushed to GitHub will be rendered 
-  - [handy web-preview tool](https://dillinger.io/)
+  - [dillinger.io: a handy web-preview tool](https://dillinger.io/)
   - [Exhaustive list of processors](https://github.com/markdown/markdown.github.com/wiki/Implementations)
 

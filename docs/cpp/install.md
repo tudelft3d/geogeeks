@@ -11,4 +11,4 @@
     
 
 === ":simple-windows: Windows"
-    TODO
+    If you installed [CLion](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) then the C++ compiler is also installed.
