@@ -1,6 +1,13 @@
 
 # Windows: vcpkg with Visual Studio & CLion
 
+!!! warning
+    
+    We recommend you use [Chocolatey to install packages](../computer/packagemanager.md), or [WSL](../computer/wsl.md).
+
+    vcpkg is an alternative, but it is more complex and difficult to setup.
+
+
 ## Why an alternative solution?
 
 Using thrid-party libraries can sometimes not be very straightforward on Windows, actually using [WSL on Windows](../wslclion) is indeed a convenient way. 
