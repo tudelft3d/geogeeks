@@ -72,9 +72,9 @@ nav:
     - cpp/cmake.md
     - cpp/installlibs.md
     - cpp/python2cpp.md
-    - cpp/vcpkgwindows.md
-    - cpp/wslclion.md
     - cpp/xcode.md
+    - cpp/wslclion.md
+    - cpp/vcpkgwindows.md
   - Git:
     - git/index.md
     - git/gitintro.md
