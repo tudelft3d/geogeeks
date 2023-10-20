@@ -15,7 +15,7 @@ Due to security reasons, many Linux servers at TUDelft cannot be accessed direct
 
 ### 1. ssh to the TUDelft server 
 
-  - for MSc students whose netid have been added (ask your supervisor!): student-linux.tudelft.nl
+  - for MSc students: student-linux.tudelft.nl
   - for TUDelft staff: linux-bastion-ex.tudelft.nl
 
 `ssh mynetid@student-linux.tudelft.nl` and password is netid password
