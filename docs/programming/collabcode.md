@@ -1,5 +1,4 @@
 # How to code collaboratively?
-<span class="tag beginner-tag">⭐️ Beginner</span>
 
 In Geomatics, you'll do a lot of coding, and in a lot of assignments, you'll do this as a team. On this page you'll find a list of the different methods for collaborating and our recommendations. Underneath, you'll find a full list of the pros and cons of each method.
 
