@@ -1,5 +1,6 @@
 # Installing and using a package manager
-<span class="tag beginner-tag">⭐️ Beginner</span> Package managers make your life easier, it's worth using from the start.
+
+Package managers make your life easier, it's worth spending a few minutes to figure them out and use them from the start.
 
 ---
 
