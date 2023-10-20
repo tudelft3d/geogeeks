@@ -1,34 +1,27 @@
 
-# Connecting to a (TUDelft) Linux server with ssh
-
-Due to security reasons, many Linux servers at TUDelft cannot be accessed directly, they are behind the TUDelft firewall. 
+# Connecting to a Linux server with ssh
 
 
-!!! note
-    
-    This works with macOS, Linux, and WSL.
+!!! warning
 
-    For Windows, see below.
-
-
-## A 2-step process
-
-### 1. ssh to the TUDelft server 
-
-  - for MSc students: student-linux.tudelft.nl
-  - for TUDelft staff: linux-bastion-ex.tudelft.nl
-
-`ssh mynetid@student-linux.tudelft.nl` and password is netid password
-
-### 2. ssh from there to the server
-
-`ssh myusername@abcd.tudelft.nl` but watch out the password is the one you were given by the admin, it is *not* your netid
-
-
-
-## Avoid the 2-step process (and passwords)
+    Due to security reasons, many Linux servers at TUDelft cannot be accessed directly, they are behind the TUDelft firewall. 
 
 === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
+
+    ## Connection is a 2-step process for TUDelft servers
+
+    ### 1. ssh to the TUDelft server 
+
+      - for MSc students: student-linux.tudelft.nl
+      - for TUDelft staff: linux-bastion-ex.tudelft.nl
+
+    `ssh mynetid@student-linux.tudelft.nl` and password is netid password
+
+    ### 2. ssh from there to the server
+
+    `ssh myusername@abcd.tudelft.nl` but watch out the password is the one you were given by the admin, it is *not* your netid
+
+    ## Avoid the 2-step process (and passwords)
 
     ### Configuration
 
@@ -72,7 +65,7 @@ Due to security reasons, many Linux servers at TUDelft cannot be accessed direct
 
     Under Windows it should be possible to do the same as macOS/Linux with [puttyssh](https://putty.org/). 
 
-    Another alternative is to install `Windows Subsystem for Linux` and some Linux distribution (e.g. `Ubuntu`) and follow the same instructions as those for macOS/Linux.
+    The best alternative is to use [WSL](../computer/wsl.md) and follow the same instructions as those for macOS/Linux.
     
     To copy files using a graphic interface use WinSCP, and configure a session following the figures here: 
     ![WinSCP0](./img/WinSCP0.jpeg)
