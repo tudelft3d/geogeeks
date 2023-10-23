@@ -13,6 +13,9 @@ The geogeeks website is written in Markdown, see [the source of this page](https
 !!! external-link "GitHub's Markdown quickstart"
     [Learn Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) by making a README file for your GitHub profile
 
+!!! external-link "Markdown Guide Getting Started"
+    [Another nice ressource](https://www.markdownguide.org/getting-started/)
+
 
 ## Markdown: basic + extended versions
 
