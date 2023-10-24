@@ -10,17 +10,18 @@ The geogeeks website is written in Markdown, see [the source of this page](https
 
 ## Getting started
 
-!!! external-link "GitHub's Markdown quickstart"
-    [Learn Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) by making a README file for your GitHub profile
-
 !!! external-link "Markdown Guide Getting Started"
-    [Another nice ressource](https://www.markdownguide.org/getting-started/)
+    
+    [Arguable the best cheat-sheet!](https://www.markdownguide.org/cheat-sheet/)
+
+    [markdown-cheat-sheet.md](https://www.markdownguide.org/assets/markdown-cheat-sheet.md)    
 
 
 ## Markdown: basic + extended versions
 
 The [original Markdown](https://daringfireball.net/projects/markdown/) is rather limited, but it has been extended by several to add more complex features (like tables,  code-blocks, or [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)).
-Watch out, it's a bit of the far-west out there: some processors might not be able to parse your flavour of Markdown correctly!?
+
+Watch out, it's a bit the far-west out there: some processors might not be able to parse your flavour of Markdown correctly!?
 
 !!! external-link "GitHub Flavoured Markdown"
     GitHub offers an useful overview of the features they added for their extended version called "[GitHub Flavoured Markdown (GFM)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)".
@@ -29,7 +30,7 @@ Watch out, it's a bit of the far-west out there: some processors might not be ab
 ## Software to process Markdown
 
   - PyCharm/CLion will preview automatically any Markdown files
-  - any file `.md` pushed to GitHub will be rendered 
+  - any file `.md` pushed to GitHub will be rendered automatically
   - [dillinger.io: a handy web-preview tool](https://dillinger.io/)
   - [Exhaustive list of processors](https://github.com/markdown/markdown.github.com/wiki/Implementations)
 
