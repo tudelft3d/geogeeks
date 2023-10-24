@@ -1,5 +1,4 @@
 # Installing Python Packages using pip
-<span class="tag beginner-tag">⭐️ Beginner</span>
 
 !!! warning "This guide presumes you have [installed Python using pyenv](install.md)."
 

@@ -72,25 +72,26 @@ nav:
     - cpp/cmake.md
     - cpp/installlibs.md
     - cpp/python2cpp.md
-    - cpp/vcpkgwindows.md
-    - cpp/wslclion.md
     - cpp/xcode.md
+    - cpp/wslclion.md
+    - cpp/vcpkgwindows.md
   - Git:
     - git/index.md
     - git/gitintro.md
     - git/install.md
     - git/goodgit.md
-    - git/msccode.md
     - git/githubactions.md
   - Research:
     - research/researchtips.md
+    - research/msccode.md
     - research/howtogoogle.md
   - Writing:
     - writing/index.md
-    - writing/figstables.md
     - writing/latexintro.md
-    - writing/latextogether.md
     - writing/markdown.md    
+    - writing/figstables.md
+    - writing/references.md
+    - writing/latextogether.md
   - Misc:
     - misc/ssh.md
     - misc/delftblue.md

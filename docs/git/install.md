@@ -23,5 +23,5 @@ If you use Linux, or if you want to use the [terminal](../computer/terminal.md),
     If not installed, then `sudo apt update` + `sudo apt install git
 
 === ":simple-windows: Windows"
-    With [Chocolatey](https://community.chocolatey.org/): choco install git`.
+    With [Chocolatey](https://community.chocolatey.org/): `choco install git`.
 

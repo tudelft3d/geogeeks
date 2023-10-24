@@ -1,6 +1,7 @@
 
 # How to install Python using Pyenv
-<span class="tag beginner-tag">⭐️ Beginner</span> Installing and using Python as recommended below has major benefits and will prevent problems in the future.
+
+Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
 ---
 

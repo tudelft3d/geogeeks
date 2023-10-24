@@ -6,9 +6,9 @@
 A Python virtual environment (venv) is ["created on top of an existing Python installation [...] and may optionally be isolated from the packages in the base environment"](https://docs.python.org/3/library/venv.html).
 Each venv will have its own set of Python packages, indepedent from the the main Python installation.
 
-It allows us to avoid this (from [xkcd-1987](https://xkcd.com/1987/)):
+It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
-![](https://imgs.xkcd.com/comics/python_environment_2x.png){ width="400" }
+![](img/xkcd.png){ width="400" }
 
 
 
@@ -21,7 +21,7 @@ It allows us to avoid this (from [xkcd-1987](https://xkcd.com/1987/)):
 
     Some useful commands:
 
-      - create a new venv (based on the current global version): `penv virtualenv myenv1`
+      - create a new venv called "myenv1" (based on the current global version): `penv virtualenv myenv1`
       - activate it: `penv activate myenv1`
       - deactivate it: `pyenv deactivate`
 

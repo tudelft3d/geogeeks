@@ -52,7 +52,7 @@
 }
 
 .tag.advanced-tag {
-  background-color: black; 
+  background-color: #6a3cb5; 
 }
 
 .tag[data-tooltip]:hover::after {

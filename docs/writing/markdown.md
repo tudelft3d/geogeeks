@@ -13,10 +13,13 @@ The geogeeks website is written in Markdown, see [the source of this page](https
 !!! external-link "GitHub's Markdown quickstart"
     [Learn Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) by making a README file for your GitHub profile
 
+!!! external-link "Markdown Guide Getting Started"
+    [Another nice ressource](https://www.markdownguide.org/getting-started/)
+
 
 ## Markdown: basic + extended versions
 
-The [original Markdown](https://daringfireball.net/projects/markdown/) is rather limited, but it has been extended by several to add more complex features (like tables and code-blocks).
+The [original Markdown](https://daringfireball.net/projects/markdown/) is rather limited, but it has been extended by several to add more complex features (like tables,  code-blocks, or [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)).
 Watch out, it's a bit of the far-west out there: some processors might not be able to parse your flavour of Markdown correctly!?
 
 !!! external-link "GitHub Flavoured Markdown"
@@ -27,8 +30,6 @@ Watch out, it's a bit of the far-west out there: some processors might not be ab
 
   - PyCharm/CLion will preview automatically any Markdown files
   - any file `.md` pushed to GitHub will be rendered 
-  - [handy web-preview tool](https://dillinger.io/)
+  - [dillinger.io: a handy web-preview tool](https://dillinger.io/)
   - [Exhaustive list of processors](https://github.com/markdown/markdown.github.com/wiki/Implementations)
-
-
 

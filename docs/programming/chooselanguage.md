@@ -13,5 +13,5 @@ Besides these two languages, you'll be introduced to:
 
 !!! info "Programming language advise"
     #### Will your project run in a web browser?
-    [Yes](/programming/_decision_tree/web/){.md-button} 
-    [No](/programming/_decision_tree/local/){.md-button}
+    [Yes](../_decision_tree/web/){.md-button} 
+    [No](../_decision_tree/local/){.md-button}
