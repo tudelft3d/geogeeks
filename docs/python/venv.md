@@ -11,7 +11,6 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 ![](img/xkcd.png){ width="400" }
 
 
-
 ## How to create and use a venv
 
 === "If you use pyenv"
