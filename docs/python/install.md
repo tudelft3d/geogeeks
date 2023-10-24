@@ -77,4 +77,3 @@ pyenv global 3.11.5
 ```
 This command sets your newly installed Python as the default Python for all terminals.
 
-%% Add extra info for selecting in Pycharm and VSCode

@@ -60,6 +60,14 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
     deactivate
     ```
 
+=== "pyenv + PyCharm"
+
+    Just activate and select a new interpreter (which must be a venv, not a Python version!), following those steps:
+
+    1. ![](img/pyenvpycharm-1.png)
+    2. ![](img/pyenvpycharm-2.png)
+    3. ![](img/pyenvpycharm-3.png)
+
 === "Directly with PyCharm"
 
     PyCharm allows you to create venv and activate them, follow those instructions:
