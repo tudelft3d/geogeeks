@@ -12,10 +12,11 @@
 
 ### Exercises
 
-  1. register on overleaf.com with your `@tudelft.nl email (for free goodies)
-  1. start with the template just below here and discover/try some features. Notice that this won't compile correctly because of the reference on line 26: the file `myreferences.bib` should be in the same folder
+  1. Register at <https://overleaf.com> with your `@tudelft.nl` email (for an account with more options, TUDelft pays for it)
+  1. Start with the template below here and discover/try some features. Notice that this won't compile correctly because of the reference on line 26: the file `myreferences.bib` should be in the same folder
+  1. copy the content of the second file to a file `myreferences.bib` and add it to the same folder
   1. check this [demo template](https://github.com/tudelft3d/latex-getting-started/tree/main/template) to know the best way to make complex things (tables, code, etc.)
-  1. try to replicate [this PDF](latex_result.pdf)
+  1. when all this works, try to replicate [this PDF](latex_result.pdf)
 
 
 ### A better starting template for simple LaTeX
@@ -54,6 +55,18 @@ Bento box roasted peanuts pasta Sicilian~\citep{DeVries20}.
 \end{document}
 ```
 
+```tex
+@article{DeVries20,
+  author = {De Vries, Piet},
+  doi = {10.1016/j.scs.2022.104225},
+  journal = {Sustainable Cities and Society},
+  pages = {102222},
+  title = {Understanding the relationship between urban morphology and other things},
+  year = {2021}
+}
+```
+
+
 ## The slides
 
-are available [there](https//hugo.com)
+Today's slides are available [there](https//hugo.com).
