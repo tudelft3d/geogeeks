@@ -8,7 +8,7 @@
 
 [![](img/overleaf.png)](https://overleaf.com)
 
-To start, we recommend you use the [online LaTeX environment Overleaf](https://www.overleaf.com) since it has a full installation of LaTeX and there is nothing to install.
+To start, the geogeek-in-chief recommends you use the [online LaTeX environment Overleaf](https://www.overleaf.com) since it has a full installation of LaTeX and there is nothing to install.
 If you login with your TUDelft email, you get extra features (TUDelft pays for it).
 
 ### Local installation
