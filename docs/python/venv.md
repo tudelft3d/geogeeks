@@ -15,8 +15,8 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
 === "If you use pyenv"
 
-    If you used [pyenv](install.md) to install Python, then you can also use it to have venv.
-    It keeps a global list of which versions and virtual environments you have installed.
+    If you used [pyenv](install.md) to install Python (this is what the geogeek-in-chief recommends!), then you can also use it to install and manage your virtual environments.
+    pyenv keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
 
     Some useful commands:
 
