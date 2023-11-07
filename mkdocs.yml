@@ -68,6 +68,7 @@ nav:
     - python/pip.md
     - python/pypackages.md
     - python/venv.md
+    - python/jupyter.md
   - C++:
     - cpp/install.md
     - cpp/cmake.md
