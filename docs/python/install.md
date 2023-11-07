@@ -1,12 +1,12 @@
 
-# How to install Python using Pyenv
+# How to install Python using pyenv
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
 ---
 
 We recommend installing and managing Python using "pyenv". 
-Pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
+pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
 
 === ":simple-apple: macOS"
     To install Python via pyenv, make sure you have [Homebrew](../computer/packagemanager.md) installed and then run the following commands in your [terminal](../computer/terminal.md).
