@@ -1,6 +1,6 @@
 
 
-# Session 4: Jupyter, Numpy, GeoPandas, Matplotlib
+# Session 4: geo-Python (Jupyter, Numpy, GeoPandas, Matplotlib)
 
 Instructors: Lukas Beuster & Gina Stavropoulou
 
