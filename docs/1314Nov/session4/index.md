@@ -7,43 +7,48 @@ Instructors: Lukas Beuster & Gina Stavropoulou
 
 # Requirements: 
 
-A computer with python3.8 or higher
+A computer with Python3.8 or higher.
 
 
 # Getting Started:
 
-You will need to use your terminal on Linux/MacOS or your PowerShell on Windows. 
+You will need to use your [terminal](../../computer/terminal.md) on Linux/macOS, or your PowerShell on Windows. 
 
-
-##  Clone the repo
+## Clone the repo (or use GitHub Desktop)
 
 ```bash
 git clone https://github.com/GinaStavropoulou/geogeek-workshop.git
 cd geogeek-workshop
 ```
 
-or use GitHub Desktop.
+## Create a new venv
 
-## Set up an environment
+Use either [pyenv](../../python/venv.md) or the following commands:
 
-### Create a virtual environment:
-```
-python3 -m venv .venv
-```
+=== ":simple-apple: macOS + :simple-linux: Linux"
+  
+    Create a virtual environment:
+    ```
+    python -m venv .venv
+    ```
+    Activate the environment 
+    ```bash
+    source .venv/bin/activate
+    ```
 
-### Activate the environment 
+=== ":simple-windows: Windows"
 
-Linux/MacOS:
-```bash
-source .venv/bin/activate
-```
+    Create a virtual environment:
+    ```
+    python -m venv .venv
+    ```
+    Activate the environment 
+    ```bash
+    .venv\Scripts\Activate.ps1
+    ```
 
-Windows:
-```
-.venv\Scripts\Activate.ps1
-```
 
-### Install the requirements:
+## Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
