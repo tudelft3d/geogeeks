@@ -43,7 +43,7 @@ Use either [pyenv](../../python/venv.md) or the following commands:
     python -m venv .venv
     ```
     Activate the environment 
-    ```bash
+    ```
     .venv\Scripts\Activate.ps1
     ```
 
