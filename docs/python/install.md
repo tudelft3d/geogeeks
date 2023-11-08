@@ -34,7 +34,10 @@ pyenv is a tool that allows you to install *multiple versions* of Python, and se
     ```
 
 === ":simple-windows: Windows"
-    Note: pyenv was created for macOS and Linux, the version for Windows is called "pyenv-win". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
+    
+    !!! note 
+
+        pyenv was created for macOS and Linux, the version for Windows is called "**pyenv-win**". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
     
     To install Python via pyenv-win, make sure you have [Chocolatey](../computer/packagemanager.md) installed and then run the following commands in your [Powershell terminal](../computer/terminal.md).
 
