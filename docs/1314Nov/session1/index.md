@@ -10,6 +10,10 @@
 
 ## LaTeX
 
+### Intro slides (as presented during GEO1002)
+
+[Intro slides to LaTeX](../../writing/files/intro_latex_tudelft3d.pdf) by [tudelft3d](https://3d.bk.tudelft.nl)
+
 ### Exercises
 
   1. Register at <https://overleaf.com> with your `@tudelft.nl` email (for an account with more options, TUDelft pays for it)
@@ -67,6 +71,14 @@ Bento box roasted peanuts pasta Sicilian~\citep{DeVries20}.
 ```
 
 
+## Python venv
+
+1. [install pyenv](../../python/install.md)
+1. [create a new venv](../../python/venv.md) called "geogeeks"
+1. activate it (with the console or with PyCharm)
+1. install [pyproj](https://pyproj4.github.io/pyproj/): `pip install pyproj`
+1. try to import it: `import pyproj` and you shouldn't get any errors
+
 ## The slides
 
-Today's slides are available [there](https//hugo.com).
+Today's slides are available [there](files/slides.pdf).
