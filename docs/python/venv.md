@@ -11,13 +11,12 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 ![](img/xkcd.png){ width="400" }
 
 
-
 ## How to create and use a venv
 
 === "If you use pyenv"
 
-    If you used [pyenv](install.md) to install Python, then you can also use it to have venv.
-    It keeps a global list of which versions and virtual environments you have installed.
+    If you used [pyenv](install.md) to install Python (this is what the geogeek-in-chief recommends!), then you can also use it to install and manage your virtual environments.
+    pyenv keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
 
     Some useful commands:
 
@@ -59,6 +58,14 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
     ```
     deactivate
     ```
+
+=== "pyenv + PyCharm"
+
+    Just activate and select a new interpreter (which must be a venv, not a Python version!), following those steps:
+
+    1. ![](img/pyenvpycharm-1.png)
+    2. ![](img/pyenvpycharm-2.png)
+    3. ![](img/pyenvpycharm-3.png)
 
 === "Directly with PyCharm"
 

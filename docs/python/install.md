@@ -1,11 +1,12 @@
 
-# How to install Python using Pyenv
+# How to install Python using pyenv
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
 ---
 
-We recommend installing and managing Python using "pyenv". Pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
+We recommend installing and managing Python using "pyenv". 
+pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
 
 === ":simple-apple: macOS"
     To install Python via pyenv, make sure you have [Homebrew](../computer/packagemanager.md) installed and then run the following commands in your [terminal](../computer/terminal.md).
@@ -33,7 +34,10 @@ We recommend installing and managing Python using "pyenv". Pyenv is a tool that 
     ```
 
 === ":simple-windows: Windows"
-    Note: pyenv was created for macOS and Linux, the version for Windows is called "pyenv-win". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
+    
+    !!! note 
+
+        pyenv was created for macOS and Linux, the version for Windows is called "**pyenv-win**". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
     
     To install Python via pyenv-win, make sure you have [Chocolatey](../computer/packagemanager.md) installed and then run the following commands in your [Powershell terminal](../computer/terminal.md).
 
@@ -77,4 +81,3 @@ pyenv global 3.11.5
 ```
 This command sets your newly installed Python as the default Python for all terminals.
 
-%% Add extra info for selecting in Pycharm and VSCode

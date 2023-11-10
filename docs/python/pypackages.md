@@ -11,7 +11,7 @@
 - [Laspy](https://github.com/laspy/laspy): to read/write/process point clouds in LAS/LAZ 
 - [Matplotlib](https://matplotlib.org/): great to visualise (mostly non-geo) data
 - [NumPy](https://numpy.org/): multi-dimensional arrays
-- [pyproj](https://pyproj4.github.io/): essential for dealing with CRS
+- [pyproj](https://pyproj4.github.io/pyproj/): essential for dealing with CRS
 - [Rasterio](https://github.com/rasterio/rasterio): read/write/process raster data
 - [scikit-learn](https://scikit-learn.org/stable/): machine learning in Python
 - [Shapely](https://github.com/shapely/shapely): processing of 2D vector data

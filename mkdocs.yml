@@ -48,6 +48,7 @@ nav:
   - "Home": 
     - index.md
     - contribute.md
+    - intro days (13+14 Nov): introdays/index.md
   - Computer & Software:
     - computer/index.md
     - computer/filesystem.md
@@ -67,6 +68,7 @@ nav:
     - python/pip.md
     - python/pypackages.md
     - python/venv.md
+    - python/jupyter.md
   - C++:
     - cpp/install.md
     - cpp/cmake.md
