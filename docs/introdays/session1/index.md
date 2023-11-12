@@ -4,11 +4,23 @@
 
 ## Markdown
 
-- exercise #1: [HTML page to replicate](md_result.html)
+[Geogeeks page about Markdown](../../writing/markdown.md)
+
+!!! external-link "Markdown Guide Getting Started"
+    
+    [Arguable the best cheat-sheet!](https://www.markdownguide.org/cheat-sheet/)
+
+    [markdown-cheat-sheet.md](https://www.markdownguide.org/assets/markdown-cheat-sheet.md)    
+
+
+- exercise #1: [HTML page to replicate](md_result.html) (use PyCharm)
 - exercise #2: convert your .md file to a PDF with [Pandoc](https://pandoc.org/) 
 
+- - -
 
 ## LaTeX
+
+[Geogeeks page about LaTeX](../../writing/introlatex.md)
 
 ### Intro slides (as presented during GEO1002)
 
@@ -70,8 +82,12 @@ Bento box roasted peanuts pasta Sicilian~\citep{DeVries20}.
 }
 ```
 
+- - -
+
 
 ## Python venv
+
+[Geogeeks page about venv](../../python/venv.md)
 
 1. [install pyenv](../../python/install.md)
 1. [create a new venv](../../python/venv.md) called "geogeeks"
@@ -79,6 +95,8 @@ Bento box roasted peanuts pasta Sicilian~\citep{DeVries20}.
 1. install [pyproj](https://pyproj4.github.io/pyproj/): `pip install pyproj`
 1. try to import it: `import pyproj` and you shouldn't get any errors
 
-## The slides
+- - -
+
+## Today's slides
 
 Today's slides are available [there](https://surfdrive.surf.nl/files/index.php/s/n2P6iWSHehFtop8).
