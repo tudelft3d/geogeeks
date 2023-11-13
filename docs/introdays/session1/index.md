@@ -20,7 +20,7 @@
 
 ## LaTeX
 
-[Geogeeks page about LaTeX](../../writing/introlatex.md)
+[Geogeeks page about LaTeX](../../writing/latexintro.md)
 
 ### Intro slides (as presented during GEO1002)
 
