@@ -57,15 +57,15 @@ pyenv is a tool that allows you to install *multiple versions* of Python, and se
 
         ![](../computer/img/windows_disable_alias.png){ width="300" }
 
-**Step 2: Using pyenv, install Python 3.11.5**
+**Step 2: Using pyenv, install Python 3.10.5**
 
 ```bash
-pyenv install 3.11.5
+pyenv install 3.10.5
 ```
-This will install Python 3.11.5 (The latest stable version of Python 3.11 as of writing). On macOS and Linux you can omit the minor version (the `.5` at the end) and pyenv will automatically choose the latest version.
+This will install Python 3.10.5; on macOS and Linux you can omit the minor version (the `.5` at the end) and pyenv will automatically choose the latest version.
 
 ??? info "(Optional) What version of Python should I install?"
-    How do I know which Python version I need? Generally it's recommended to use the previous version of Python (so if Python 3.12 is the latest, install 3.11). This is because it takes some time for libraries to be updated, so it's safer to use a version of Python which is more supported.
+    How do I know which Python version I need? Generally it's recommended to use the previous version of Python (so if Python 3.11 is the latest, install 3.10). This is because it takes some time for libraries to be updated, so it's safer to use a version of Python which is more supported.
 
     You can use `pyenv install -l` to get a list of all available Python versions`
 
