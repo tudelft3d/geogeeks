@@ -16,7 +16,7 @@
 - exercise #1: [HTML page to replicate](md_result.html) (use PyCharm)
 - exercise #2: convert your .md file to a PDF with [Pandoc](https://pandoc.org/) 
 
-[SOLUTION TO #1](md_result.md)
+[SOLUTION TO #1](md_result.md.txt) 
 
 - - -
 
@@ -36,7 +36,7 @@
   1. check this [demo template](https://github.com/tudelft3d/latex-getting-started/tree/main/template) to know the best way to make complex things (tables, code, etc.)
   1. when all this works, try to replicate [this PDF](latex_result.pdf)
 
-[SOLUTION](latex_result.md)
+[SOLUTION](latex_result.tex)
 
 ### A better starting template for simple LaTeX
 
