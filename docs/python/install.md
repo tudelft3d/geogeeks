@@ -77,7 +77,7 @@ If you already have a pre-installed Python, this will print `system`. It might a
 
 **Step 4: Set your newly installed Python as default**
 ```bash
-pyenv global 3.11.5
+pyenv global 3.10.5
 ```
 This command sets your newly installed Python as the default Python for all terminals.
 
