@@ -29,7 +29,7 @@ Use either [pyenv](../../python/venv.md) or the following commands:
   
     Create a virtual environment:
     ```
-    python -m venv .venv
+    python3 -m venv .venv
     ```
     Activate the environment 
     ```bash
@@ -40,7 +40,7 @@ Use either [pyenv](../../python/venv.md) or the following commands:
 
     Create a virtual environment:
     ```
-    python -m venv .venv
+    python3 -m venv .venv
     ```
     Activate the environment 
     ```
