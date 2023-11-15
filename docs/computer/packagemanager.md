@@ -127,7 +127,7 @@ Different operating systems have different package managers.
 
     **Step 1: Open your Powershell terminal as administrator**
 
-    ![](img/powershell_admin.png)
+    ![](img/powershell_admin.png){:width="300px"}
     
     Using Windows search, search for Powershell, right-click it, and open as administrator.
 
