@@ -13,9 +13,15 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
 ## How to create and use a venv
 
+=== "Directly with PyCharm"
+
+    PyCharm allows you to create venv and activate them, follow those instructions:
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_oRO08UrNqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 === "If you use pyenv"
 
-    If you used [pyenv](install.md) to install Python (this is what the geogeek-in-chief recommends!), then you can also install [pyenv-virtualenv plugin](https://github.com/pyenv/pyenv-virtualenv) to install and manage your virtual environments.
+    If you used [pyenv](install.md) to install Python (this is what we recommend for macOS and Linux!), then you can also install the [pyenv-virtualenv plugin](https://github.com/pyenv/pyenv-virtualenv) to install and manage your virtual environments.
     It keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
 
     To install:
@@ -72,10 +78,6 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
     2. ![](img/pyenvpycharm-2.png)
     3. ![](img/pyenvpycharm-3.png)
 
-=== "Directly with PyCharm"
 
-    PyCharm allows you to create venv and activate them, follow those instructions:
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_oRO08UrNqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
