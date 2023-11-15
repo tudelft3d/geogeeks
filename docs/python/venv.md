@@ -13,11 +13,11 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
 ## How to create and use a venv
 
-=== "Directly with PyCharm"
+=== "Directly with PyCharm" 
 
     PyCharm allows you to create venv and activate them, follow those instructions:
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_oRO08UrNqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UhOJF66gmvY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 === "If you use pyenv"
 
