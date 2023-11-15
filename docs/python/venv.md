@@ -15,12 +15,17 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
 === "If you use pyenv"
 
-    If you used [pyenv](install.md) to install Python (this is what the geogeek-in-chief recommends!), then you can also use it to install and manage your virtual environments.
-    pyenv keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
+    If you used [pyenv](install.md) to install Python (this is what the geogeek-in-chief recommends!), then you can also install [pyenv-virtualenv plugin](https://github.com/pyenv/pyenv-virtualenv) to install and manage your virtual environments.
+    It keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
+
+    To install:
+
+      - macOS: `brew install pyenv-virtualenv`
+      - Linux: [see details](https://github.com/pyenv/pyenv-virtualenv?tab=readme-ov-file#installation)
 
     Some useful commands:
 
-      - create a new venv called "myenv1" (based on the current global version): `penv virtualenv myenv1`
+      - create a new venv called "myenv1" (based on the current global version): `pyenv virtualenv myenv1`
       - activate it: `penv activate myenv1`
       - deactivate it: `pyenv deactivate`
 
