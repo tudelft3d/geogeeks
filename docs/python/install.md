@@ -3,6 +3,12 @@
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
+!!! warning 
+
+    pyenv was created for macOS and Linux, and although it has a Windows version (called "**pyenv-win**"), this is not working very well and the installation is buggy. 
+
+    Therefore, for Windows we recommend you install Python "the normal way" ([downloading from python.org](https://www.python.org/downloads/), but we **strongly recommend** you use [virtual environments](venv.md).
+
 ---
 
 We recommend installing and managing Python using "pyenv". 
@@ -32,30 +38,6 @@ pyenv is a tool that allows you to install *multiple versions* of Python, and se
     ```bash
     curl https://pyenv.run | bash
     ```
-
-=== ":simple-windows: Windows"
-    
-    !!! note 
-
-        pyenv was created for macOS and Linux, the version for Windows is called "**pyenv-win**". However, it works the same as pyenv and the command in the terminal is still `pyenv`.
-    
-    To install Python via pyenv-win, make sure you have [Chocolatey](../computer/packagemanager.md) installed and then run the following commands in your [Powershell terminal](../computer/terminal.md).
-
-    **Step 1: Install pyenv-win using Chocolatey**
-    ```powershell
-    choco install pyenv-win
-    ```
-
-    Restart your terminal after running this command. Are you getting an error when using pyenv in the following steps? Make sure you followed all instructions in the [Chocolatey installation guide](../computer/packagemanager.md).
-
-    !!! warning "Important, disable Python Microsoft Store link"
-        On Windows, by default the command `python` will open the Microsoft Store for you to download Python. Disable this with these steps:
-
-        1. Open the Windows Settings
-        2. Go to Apps>Apps & Features>More Settings>App Execution Aliases
-        3. In the list, find "App Installer: python.exe" and "App Installer: python3.exe" and disable both.
-
-        ![](../computer/img/windows_disable_alias.png){ width="300" }
 
 **Step 2: Using pyenv, install Python 3.10.5**
 
