@@ -3,16 +3,17 @@
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
-!!! warning 
+!!! warning ":simple-windows: Windows: use the python.org version!"
 
     pyenv was created for macOS and Linux, and although it has a Windows version (called "**pyenv-win**"), this is not working very well and the installation is buggy. 
 
-    Therefore, for Windows we recommend you install Python "the normal way" ([downloading from python.org](https://www.python.org/downloads/), but we **strongly recommend** you use [virtual environments](venv.md).
+    Therefore, for Windows we recommend you install Python "the normal way" ([downloading from python.org](https://www.python.org/downloads/)), but we **strongly recommend** you use [virtual environments](venv.md).
 
 ---
 
 We recommend installing and managing Python using "pyenv". 
 pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
+
 
 === ":simple-apple: macOS"
     To install Python via pyenv, make sure you have [Homebrew](../computer/packagemanager.md) installed and then run the following commands in your [terminal](../computer/terminal.md).
