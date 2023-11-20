@@ -76,4 +76,5 @@ So let's say you want to move to the parent folder: `cd ..`
     <div style="display: flex; justify-content: center; padding-bottom: 1em;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oxuRxtrO2Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    %TODO description
+    This video gives a very good overview of pretty much everything you need to know.
+    It's long, but totally worth it in our opinion!
