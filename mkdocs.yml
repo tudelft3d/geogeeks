@@ -50,15 +50,13 @@ nav:
     - contribute.md
     - intro days (13+14 Nov): introdays/index.md
   - Computer & Software:
-    - computer/index.md
+    - computer/perfectsetup.md
     - computer/filesystem.md
     - computer/terminal.md
     - computer/packagemanager.md
-    - computer/perfectsetup.md
     - computer/wsl.md
     - computer/bestsoftware.md
   - Programming: 
-    - programming/index.md
     - programming/chooselanguage.md
     - programming/collabcode.md
     - programming/debugging.md
