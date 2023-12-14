@@ -57,6 +57,7 @@ nav:
     - computer/wsl.md
     - computer/bestsoftware.md
   - Programming: 
+    - programming/index.md
     - programming/chooselanguage.md
     - programming/collabcode.md
     - programming/debugging.md
@@ -69,6 +70,7 @@ nav:
     - python/venv.md
     - python/jupyter.md
   - C++:
+    - cpp/index.md
     - cpp/install.md
     - cpp/cmake.md
     - cpp/installlibs.md
