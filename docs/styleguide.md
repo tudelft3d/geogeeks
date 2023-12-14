@@ -17,44 +17,10 @@ This page is intended as a reference for **styling conventions** used on the sit
 ### Difficulty indication
 To make it easier for readers to decide how deep they want to dive into a certain topic, it is good to divide the documentation into different difficulty levels. We do this with difficulty tags. Add this tag directly underneath the header of the section.
 
-```<span class="tag beginner-tag">⭐️ Beginner</span>``` Shortcut: `\beginner`
-
-<span class="tag beginner-tag">⭐️ Beginner</span>
-
-```<span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>``` Shortcut: `\intermediate`
-
-<span class="tag intermediate-tag">⭐️⭐️ Intermediate</span> 
-
 ```<span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>``` Shortcut: `\advanced`
 
 <span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>
 
-If a topic covers multiple difficulty levels, indicate it as following:
-
-```<span class="tag beginner-tag">⭐️ Beginner</span> - <span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>```
-
-<span class="tag beginner-tag">⭐️ Beginner</span> - <span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>
-
-
-### Keyboard shortcuts
-Use the following styling: ++ctrl+alt+del++ `++ctrl+alt+del++`
-
-When commands are different across operating systems use the following styles:
-
-Inline: ++ctrl+alt+del++ (++cmd+option+del++ on macOS) `++ctrl+alt+del++ (++cmd+option+del++ on macOS)`
-
-Tabs:
-```markdown
-=== ":simple-windows: :simple-linux: Windows & Linux"
-    ++ctrl+alt+del++
-=== ":simple-apple: macOS"
-    ++cmd+option+del++
-```
-
-=== ":simple-windows: :simple-linux: Windows & Linux"
-    ++ctrl+alt+del++
-=== ":simple-apple: macOS"
-    ++cmd+option+del++
 
 ### Code and Files
 For inline code use inline code blocks like `Matrix::get_row` (Code surrounded by backticks `).
