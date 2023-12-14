@@ -1,11 +1,15 @@
-# Debugging
+# Advice on debugging
 
 !!! info "What is a "bug"?"
-    In programming we call a "bug" any kind of issue occuring in our code that obstructs us from getting the result we are after. For example this could be an error message or your program crashing or an incorrect result.
+    In programming we call a "bug" any kind of issue occurring in our code that obstructs us from getting the result we are after. For example this could be an error message or your program crashing or an incorrect result.
 
     **Fun fact**: Did you know? Bugs owe their name to a historical computer that ran into issues, because a moth had crawled into it!
 
 Every programmer, no matter how experienced, runs into bugs with the code they write. Debugging is everything related to finding and fixing these problems. This page gives you some different debugging strategies to help you solve these bugs.
+
+!!! important "Solving errors"
+    This page shows how to solve logic bugs (no errors occur, but the output is not correct). Want to learn how to solve errors? Please see: 
+    [How to solve Python errors](../python/errors.md) and [How to solve C++ errors](../cpp/errors.md).
 
 !!! example "Challenge"
     **Can you find the bug in this Python example?**
@@ -137,8 +141,3 @@ when an error occurs, so you can see the values of all the variables at the mome
 
 
 
-%% TODO
-- Cpp specific (Clion)
-- Mention CLI debuggers
-- Debugging basics (step over, step in)
-- Debugging exercises
