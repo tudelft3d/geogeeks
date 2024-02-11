@@ -43,6 +43,9 @@ Make sure you are in the directory you want the tool installed to before doing t
 .\vcpkg\bootstrap-vcpkg.bat
 ```
 #### Step 3: Install libraries for your project
+
+While in the directory of vcpkg:
+
 ```
 vcpkg install [packages to install]
 ```
