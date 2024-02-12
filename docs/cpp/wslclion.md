@@ -71,22 +71,22 @@ Go to the tmp directory:
 cd /tmp
 ```
 
-Download the source code:
+Download the source code (change the path to that of the newest version):
 
 ```sh
-wget https://github.com/Kitware/CMake/releases/download/v3.20.0/cmake-3.20.0.tar.gz
+wget https://github.com/Kitware/CMake/releases/download/v3.28.3/cmake-3.28.3.tar.gz
 ```
 
 When this is complete, extract the file:
 
 ```sh
-tar -zxvf cmake-3.20.0.tar.gz
+tar -zxvf cmake-3.28.3.tar.gz
 ```
 
 Go to the extracted folder:
 
 ```sh
-cd cmake-3.20.0
+cd cmake-3.28.3
 ```
 
 Compile and install CMake:
