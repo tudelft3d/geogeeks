@@ -48,7 +48,7 @@ nav:
   - "Home": 
     - index.md
     - contribute.md
-    - intro days (13+14 Nov): introdays/index.md
+    - (workshop Nov 2023): introdays/index.md
   - Computer & Software:
     - computer/perfectsetup.md
     - computer/filesystem.md
