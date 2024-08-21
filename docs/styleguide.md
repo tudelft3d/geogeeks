@@ -3,7 +3,7 @@
 
 This page is intended as a reference for **styling conventions** used on the site to achieve consistency. The Markdown source can be used as snippets.
 
-!!! tip ":simple-visualstudiocode: Visual Studio Code snippets"
+!!! tip ":material-microsoft-visual-studio-code: Visual Studio Code snippets"
     The repository contains snippet shortcut files for Visual Studio Code. On this page, if you see something starting with a backslash `\` it is the shortcut for placing that snippet.
     Make sure in Visual Studio code the following options are enabled:
     ```json
@@ -45,13 +45,13 @@ Inline: ++ctrl+alt+del++ (++cmd+option+del++ on macOS) `++ctrl+alt+del++ (++cmd+
 
 Tabs:
 ```markdown
-=== ":simple-windows: :simple-linux: Windows & Linux"
+=== ":material-microsoft-windows: :simple-linux: Windows & Linux"
     ++ctrl+alt+del++
 === ":simple-apple: macOS"
     ++cmd+option+del++
 ```
 
-=== ":simple-windows: :simple-linux: Windows & Linux"
+=== ":material-microsoft-windows: :simple-linux: Windows & Linux"
     ++ctrl+alt+del++
 === ":simple-apple: macOS"
     ++cmd+option+del++
@@ -133,7 +133,7 @@ data = np.array([2,3,4])
 
 
 ###### OS
-- :simple-windows: Windows: `:simple-windows:` `\iwindows`
+- :material-microsoft-windows: Windows: `:material-microsoft-windows:` `\iwindows`
 - :simple-linux: Linux: `:simple-linux:` `\ilinux`
 - :simple-apple: macOS: `:simple-apple:` `\imacos`, `\iapple`
 - :material-web: www application: `:material-web:` 
@@ -144,7 +144,7 @@ data = np.array([2,3,4])
 ###### Software
 - :simple-pycharm: Pycharm `:simple-pycharm:` `\ipycharm`
 - :simple-clion: CLion `:simple-clion:` `\iclion`
-- :simple-visualstudiocode: Visual Studio Code `:simple-visualstudiocode:` `\ivscode`
+- :material-microsoft-visual-studio-code: Visual Studio Code `:material-microsoft-visual-studio-code:` `\ivscode`
 - :simple-qgis: QGIS `:simple-qgis:` `\iqgis`
 - :simple-arcgis: ArcGIS `:simple-arcgis:` `\iarcgis`
 
@@ -158,16 +158,16 @@ These should be split into content tabs with consistent tab naming.
 
     Since the website uses global tabs, only use the predefined names:
 
-    - :simple-windows: Windows `:simple-windows: Windows` 
+    - :material-microsoft-windows: Windows `:material-microsoft-windows: Windows` 
     - :simple-apple: macOS `:simple-apple: macOS` 
     - :simple-linux: Linux `:simple-linux: Linux` 
     - :simple-apple: :simple-linux: Unix (macOS & Linux) `:simple-apple: :simple-linux: Unix (macOS & Linux)` 
-    - :simple-windows: :simple-linux: Windows & Linux `:simple-windows: :simple-linux: Windows & Linux` (Mainly used for shortcuts)
+    - :material-microsoft-windows: :simple-linux: Windows & Linux `:material-microsoft-windows: :simple-linux: Windows & Linux` (Mainly used for shortcuts)
 
     Windows/macOS/Linux. `\os_win_macos_linux`.
 
     ```md
-    === ":simple-windows: Windows"
+    === ":material-microsoft-windows: Windows"
 
         Windows instructions here
 
@@ -180,7 +180,7 @@ These should be split into content tabs with consistent tab naming.
         Linux instructions here
     ```
 
-    === ":simple-windows: Windows"
+    === ":material-microsoft-windows: Windows"
 
         Windows instructions here
 
@@ -195,7 +195,7 @@ These should be split into content tabs with consistent tab naming.
     Windows/Unix. `\ow_win_unix`.
 
     ```md
-    === ":simple-windows: Windows"
+    === ":material-microsoft-windows: Windows"
 
         Windows instructions here
 
@@ -204,7 +204,7 @@ These should be split into content tabs with consistent tab naming.
         Linux instructions here
     ```
 
-    === ":simple-windows: Windows"
+    === ":material-microsoft-windows: Windows"
 
         Windows instructions here
 
@@ -215,7 +215,7 @@ These should be split into content tabs with consistent tab naming.
     Windows&Linux/macOS `\os_winlinux_macos`
 
     ```md
-    === ":simple-windows: :simple-linux: Windows & Linux"
+    === ":material-microsoft-windows: :simple-linux: Windows & Linux"
         
         Windows & Linux instructions here
         
@@ -225,7 +225,7 @@ These should be split into content tabs with consistent tab naming.
         
     ```
 
-    === ":simple-windows: :simple-linux: Windows & Linux"
+    === ":material-microsoft-windows: :simple-linux: Windows & Linux"
         
         Windows & Linux instructions here
         
@@ -233,7 +233,7 @@ These should be split into content tabs with consistent tab naming.
         
         macOS instructions here
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
 
     Windows instructions here
 

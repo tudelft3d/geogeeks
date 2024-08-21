@@ -3,7 +3,7 @@
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
-!!! warning ":simple-windows: Windows: use the python.org version!"
+!!! warning ":material-microsoft-windows: Windows: use the python.org version!"
 
     pyenv was created for macOS and Linux, and although it has a Windows version (called "**pyenv-win**"), this is not working very well and the installation is buggy. 
 
