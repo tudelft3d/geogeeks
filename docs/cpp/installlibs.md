@@ -39,5 +39,5 @@
     sudo apt install gdal-bin libgdal-dev
     ```
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     TODO

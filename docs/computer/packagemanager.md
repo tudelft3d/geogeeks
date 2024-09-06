@@ -117,7 +117,7 @@ Different operating systems have different package managers.
     !!! tip "More commands"
         apt has more commands, for things like updating and uninstalling. For these, we recommend [this tutorial](https://linuxize.com/post/how-to-use-apt-command/).
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     
     For Windows, we recommend the [Chocolatey package manager](https://chocolatey.org). We'll be using the free open source version.
 

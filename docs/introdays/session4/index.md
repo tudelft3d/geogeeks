@@ -36,7 +36,7 @@ Use either [pyenv](../../python/venv.md) or the following commands:
     source .venv/bin/activate
     ```
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
 
     Create a virtual environment:
     ```

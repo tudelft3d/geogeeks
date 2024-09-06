@@ -16,10 +16,10 @@
 
 Best vector graphics drawing tools:
 
-  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :simple-windows: (€€ but way less than Adobe)
-  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
-  - Adobe Illustrator :simple-apple: :simple-windows: (nice, but €€€)
+  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :material-microsoft-windows: (€€ but way less than Adobe)
+  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
+  - Adobe Illustrator :simple-apple: :material-microsoft-windows: (nice, but €€€)
 
 
 ## Tables 

@@ -61,7 +61,7 @@
       - `ssh abcd`
       - `ssh xyz`
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
 
     Under Windows it should be possible to do the same as macOS/Linux with [puttyssh](https://putty.org/). 
 

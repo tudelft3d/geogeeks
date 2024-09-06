@@ -28,7 +28,7 @@ It's often a quicker and more precise way to interact with the computer, and it 
 === ":simple-linux: Linux"
     It's built-in, either called `GNOME Terminal` or `Konsole`.
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     While the `Command Prompt` (or `cmd`) could be used, we do not recommend it as it's too simple.
     Instead, use the `PowerShell`, which is already installed on all Windows machine.
 

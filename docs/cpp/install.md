@@ -10,5 +10,5 @@
     In the console: `sudo apt install build-essential` will install clang, gcc, and git.
     
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     If you installed [CLion](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) then the C++ compiler is also installed.

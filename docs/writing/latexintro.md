@@ -15,7 +15,7 @@ If you login with your TUDelft email, you get extra features (TUDelft pays for i
 
 If you want to use LaTeX locally (it's faster to compile) then you need either:
 
-  - [MiKTeX](http://miktex.org/about) :simple-windows: 
+  - [MiKTeX](http://miktex.org/about) :material-microsoft-windows:
   - [MacTeX](https://tug.org/mactex) :simple-apple: 
   - [TeXLive](https://www.tug.org/texlive) :simple-linux:
 
@@ -53,12 +53,12 @@ Use it as the template for submitting your homework for instance.
 
 ### Editors (if you don't use Overleaf, or use Git/GitHub to edit your Overleaf project locally)
 
-  - [TeXnicCenter](http://www.texniccenter.org) :material-open-source-initiative: :simple-windows: 
-  - [TeXStudio](https://www.texstudio.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
+  - [TeXnicCenter](http://www.texniccenter.org) :material-open-source-initiative: :material-microsoft-windows: 
+  - [TeXStudio](https://www.texstudio.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
   - [TeXshop](http://pages.uoregon.edu/koch/texshop/) :material-open-source-initiative: :simple-apple: (bundled with MacTeX)
-  - [Visual Studio Code](https://code.visualstudio.com/) as generic editor with the [LaTeX Workshop plugin](https://github.com/James-Yu/LaTeX-Workshop) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - [Texmaker](https://www.xm1math.net/texmaker/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - [Sublime Text](https://www.sublimetext.com) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
+  - [Visual Studio Code](https://code.visualstudio.com/) as generic editor with the [LaTeX Workshop plugin](https://github.com/James-Yu/LaTeX-Workshop) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - [Texmaker](https://www.xm1math.net/texmaker/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - [Sublime Text](https://www.sublimetext.com) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows: (TeX support can be added through [package control](https://packagecontrol.io) with the LaTeXTools package; also with package control you can get a nice linter called SublimeLinter with TeX support through SublimeLinter-chktex)
 
 !!! info
     
@@ -66,17 +66,17 @@ Use it as the template for submitting your homework for instance.
 
 ### Managing references
 
-  - [JabRef](http://jabref.sourceforge.net) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - [Zotero](https://www.zotero.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
-  <!-- - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :simple-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts) -->
+  - [JabRef](http://jabref.sourceforge.net) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - [Zotero](https://www.zotero.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows: :material-web: (integrations for Office and browsers; use a plugin like [better bibtex](https://retorque.re/zotero-better-bibtex/))
+  <!-- - [Mendeley](https://www.mendeley.com/) :simple-linux: :simple-apple: :material-microsoft-windows: (integrations for Office and browsers; integrates with Overleaf professional accounts) -->
   - [BibDesk](https://bibdesk.sourceforge.io) :material-open-source-initiative:  :simple-apple:
 
 ### Drawing figures
 
-  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
-  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :simple-windows: (€€ but way less than Adobe)
-  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :simple-windows:
-  - Adobe Illustrator :simple-apple: :simple-windows:(nice, but €€€)
+  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
+  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :material-microsoft-windows: (€€ but way less than Adobe)
+  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - Adobe Illustrator :simple-apple: :material-microsoft-windows:(nice, but €€€)
 
 ### Drawing flowcharts
 

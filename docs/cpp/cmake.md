@@ -15,7 +15,7 @@ CMake can also thus be used to generate a project file, eg in CLion.
 === ":simple-linux: Linux"
     `sudo apt-get install build-essential libssl-dev`
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     If you installed [CLion](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html) then CMAKE is also installed __OR__ `choco install cmake`
 
 ## CMake with the console
@@ -34,7 +34,7 @@ If you have a folder in which there is a `CMakeLists.txt` file (this [simple rep
     Notice that we create a new folder `/build` so that all the temporary compilation files are not in the same folder, all created files will go in that one folder (which can be safely deleted).
     The step `cmake ..` means that the `CMakeLists.txt` file is located in the parent folder, its output is a `Makefile` file which allows us to compile the code (and build the binary `demo_cmake`).
 
-=== ":simple-windows: Windows"
+=== ":material-microsoft-windows: Windows"
     TODO
 
 
