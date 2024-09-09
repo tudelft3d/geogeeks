@@ -24,7 +24,7 @@
 
 === ":material-microsoft-windows: Windows"
     - **Package manager**: [Chocolatey](https://community.chocolatey.org/) to easily install packages without having to click 
-    - [WSL](wsl.md) is really important to be able to run Linux
+    - [WSL](../linux/wsl.md) is really important to be able to run Linux
     - **Python**: [PyCharm](https://www.jetbrains.com/pycharm-edu/) as IDE; [Python Package Index (PyPI)](https://pypi.org/)  as package manager; [pyenv-win](https://github.com/pyenv-win/pyenv-win) as environment manager
     - **C++**: [CLion](https://www.jetbrains.com/clion/) as IDE; brew as package manager; [CMake](../cpp/cmake.md) as builder
     - **GIS**: [QGIS](https://www.qgis.org/en/site/forusers/download.html)

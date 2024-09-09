@@ -81,7 +81,7 @@ Different operating systems have different package managers.
 
 === ":simple-linux: Linux"
     
-    This tab is geared towards Geomatics students using Ubuntu (under [Windows Subsystem for Linux](wsl.md)). If you're using another distro, we recommend finding a package management guide specific to that distro.
+    This tab is geared towards Geomatics students using Ubuntu (under [Windows Subsystem for Linux](../linux/wsl.md)). If you're using another distro, we recommend finding a package management guide specific to that distro.
 
     Ubuntu comes installed with the `apt` package manager. It has a huge collection of available packages.
 
