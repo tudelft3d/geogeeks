@@ -3,7 +3,7 @@
 
 !!! warning
     
-    We recommend you use [Chocolatey to install packages](../computer/packagemanager.md), or [WSL](../computer/wsl.md).
+    We recommend you use [Chocolatey to install packages](../computer/packagemanager.md), or [WSL](../linux/wsl.md).
 
     vcpkg is an alternative, but it is more complex and difficult to setup.
 

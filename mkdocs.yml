@@ -54,7 +54,6 @@ nav:
     - computer/filesystem.md
     - computer/terminal.md
     - computer/packagemanager.md
-    - computer/wsl.md
     - computer/bestsoftware.md
   - Programming: 
     - programming/chooselanguage.md
@@ -75,6 +74,12 @@ nav:
     - cpp/xcode.md
     - cpp/wslclion.md
     - cpp/vcpkgwindows.md
+  - Linux:
+    - linux/index.md
+    - linux/intro.md
+    - linux/virtualbox.md
+    - linux/ssh.md
+    - linux/wsl.md
   - Git:
     - git/index.md
     - git/gitintro.md
@@ -93,7 +98,6 @@ nav:
     - writing/references.md
     - writing/latextogether.md
   - Misc:
-    - misc/ssh.md
     - misc/delftblue.md
 
 
