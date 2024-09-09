@@ -1,6 +1,7 @@
+
 # Using the DelftBlue supercomputer
 
-<span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>
+<!-- <span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span> -->
 
 !!! note
 
