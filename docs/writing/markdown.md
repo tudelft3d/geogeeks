@@ -12,7 +12,7 @@ The geogeeks website is written in Markdown, see [the source of this page](https
 
 !!! external-link "Markdown Guide Getting Started"
     
-    [Arguable the best cheat-sheet!](https://www.markdownguide.org/cheat-sheet/)
+    [Arguably the best cheat sheet!](https://www.markdownguide.org/cheat-sheet/)
 
     [markdown-cheat-sheet.md](https://www.markdownguide.org/assets/markdown-cheat-sheet.md)    
 
