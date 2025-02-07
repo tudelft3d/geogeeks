@@ -11,7 +11,6 @@ They are for the final code that will come with your MSc thesis.
 ## General
 - [ ] The repository should be publicly available
 
-
 ## Documentation
 
 - [ ] There should be a README file that indicates 
@@ -27,7 +26,6 @@ They are for the final code that will come with your MSc thesis.
 - [ ] A `changelog.md` detailing the changes between the releases should be available ([help with changelog](https://keepachangelog.com/en/))
 - [ ] There should be clear guidelines for third-parties wishing to: (1) contribute to the software; (2) report issues or problems with the software; (3) seek support
 
-
 ## Organization
 
 - [ ] Folders should be used to separate data, code, documentation, and results
@@ -36,7 +34,6 @@ They are for the final code that will come with your MSc thesis.
     - And `/test` for unit tests
     - But each language will have different setups and habits
 - [ ] The files should use a consistent naming scheme that indicates what they contain
-
 
 ## Files that should **not** be added to the repository
 
@@ -51,26 +48,19 @@ Examples of files to ignore:
   - `*.pdf` for LaTeX
   - `/build` the whole build folder for C++
 
-
-
 ## Software
 
 - [ ] There should be releases to package the software ([how to create a release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases))
-- [ ] Is a container available to run the proiect (eg [Docker](https://www.docker.com/))?
+- [ ] Is a container available to run the project (eg [Docker](https://www.docker.com/))?
 - [ ] Are unit tests available for the code?
-
 
 ## Data
 
-- [ ] If you project has data: are they included or a link is provided?
+- [ ] If your project has data: are they included or a link is provided?
 - [ ] If data is not included, is this because it is not necessary or generated as part of the project?
 - [ ] Are your raw data (if any) and processed data files separated?
-
 
 ## Others
 
 - [ ] The code should be well documented
-- [ ] Does the repository make use of continuous integration tools to insure internal reproduciblity?
-
-
-
+- [ ] Does the repository make use of continuous integration tools to ensure internal reproduciblity?
