@@ -10,7 +10,7 @@
 
 ## Why an alternative solution?
 
-Using thrid-party libraries can sometimes not be very straightforward on Windows, actually using [WSL on Windows](../wslclion) is indeed a convenient way. 
+Using thrid-party libraries can sometimes not be very straightforward on Windows, actually using [WSL on Windows](./wslclion.md) is indeed a convenient way. 
 However, there are some disadvantages:
 
 * **WSL will incrementally occupy system disk space**.
