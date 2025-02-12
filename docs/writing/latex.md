@@ -1,4 +1,4 @@
-# Intro to LaTeX
+# LaTeX
 
 
 ## LaTeX installation
@@ -36,6 +36,122 @@ You can also combine the best of both worlds (overleaf and local), by using eith
     The best is to follow the [Overleaf's Learn LaTeX in 30min](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to start.
 
     The only crucial thing missing from it is how to add references, for this we suggest you use "natbib" ([tutorial about bibliography management with natbib](https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib)).
+
+
+## Test yourself with an exercise
+
+  1. Register at <https://overleaf.com> with your `@tudelft.nl` email (for an account with more options, TUDelft pays for it)
+  1. Start with the template below and discover/try some features. Notice that this won't compile correctly because of the reference on line 26: the file `myreferences.bib` should be in the same folder
+  1. copy the content of the second file to a file `myreferences.bib` and add it to the same folder
+  1. check this [demo template](https://github.com/tudelft3d/latex-getting-started/tree/main/template) to know the best way to make complex things (tables, code, etc.)
+  1. when all this works, try to replicate [this PDF](./files/latex_result.pdf)
+
+[SOLUTION](./files/latex_result.tex)
+
+### A better starting template for simple LaTeX
+
+```tex
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} %-- pour utiliser des accents en français
+\usepackage{amsmath,amssymb,amsthm} 
+\usepackage[round]{natbib}
+\usepackage{url}
+\usepackage{mathpazo}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{My great title}
+\author{Jan Smit\\ \url{j.smit@tudelft.nl}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Lemongrass frosted gingerbread bites banana bread orange crumbled lentils sweet potato black bean burrito green pepper springtime. 
+Strawberry ginger lemongrass agave green tea smoky maple tempeh glaze enchiladas couscous. 
+Cranberry spritzer Malaysian cinnamon pineapple salsa apples spring cherry bomb bananas blueberry pops scotch bonnet pepper.
+
+Bento box roasted peanuts pasta Sicilian~\citep{DeVries20}.
+
+\bibliographystyle{abbrvnat}
+\bibliography{references.bib}
+
+\end{document}
+```
+
+```tex
+@article{DeVries20,
+  author = {De Vries, Piet},
+  doi = {10.1016/j.scs.2022.104225},
+  journal = {Sustainable Cities and Society},
+  pages = {102222},
+  title = {Understanding the relationship between urban morphology and other things},
+  year = {2021}
+}
+```
+
+## Figures
+
+!!! important
+    Make sure your figures are **vector** when possible, and __not__ raster. 
+    This will make them of greater quality, especially for text.
+    
+    Vector formats: PDF, SVG.
+
+    Raster formats: PNG, JPG, JPEG, GIF.
+
+    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bitmap_VS_SVG.svg/580px-Bitmap_VS_SVG.svg.png){:width="400px"}
+
+Best vector graphics drawing tools:
+
+  - [Affinity Designer](https://affinity.serif.com/es/designer/full-feature-list/)  :simple-apple: :material-microsoft-windows: (€€ but way less than Adobe)
+  - [Inkscape](https://inkscape.org/en/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows:
+  - [IPE](http://ipe.otfried.org/) :material-open-source-initiative: :simple-linux: :simple-apple: :material-microsoft-windows: (integrates LaTeX text; great for triangulation and geometric stuff)
+  - Adobe Illustrator :simple-apple: :material-microsoft-windows: (nice, but €€€)
+
+
+## Tables 
+
+Tables are notoriously difficult to make in LaTeX.
+
+!!! tip 
+    [LaTeX package booktabs](https://nhigham.com/2019/11/19/better-latex-tables-with-booktabs/) is strongly recommended!
+
+    ```tex
+    The package \texttt{booktabs} permits you to make nicer tables than the basic ones in \LaTeX.
+    See for instance \autoref{tab:example}.
+
+    \usepackage{booktabs}
+    ...
+    \begin{table}
+      \centering
+      \begin{tabular}{@{}lrrcrrc@{}} \toprule
+        & \multicolumn{2}{c}{3D model} && \multicolumn{2}{c}{input} \\
+        \cmidrule{2-3}  \cmidrule{5-6} 
+        & solids & faces && vertices & constraints  \\ 
+        \toprule
+        \textbf{campus}  & 370   & 4~298  && 5~970  & 3~976   \\
+        \textbf{kvz}     & 637   & 6~549  && 8~951  & 13~571  \\
+        \textbf{engelen} & 1~629 & 15~870 && 23~732 & 15~868 \\ 
+        \bottomrule
+       \end{tabular}
+      \caption{Details concerning the datasets used for the experiments.}%
+    \label{tab:example}
+    \end{table}
+    ```
+
+
+## Flowcharts
+
+![](./img/fc.svg)
+
+  - [draw.io](https://app.diagrams.net) :material-web: (free, simple, all you probably need)
+  - [OmniGraffle](https://www.omnigroup.com/omnigraffle) :simple-apple: (nice, but €€€)
 
 
 ## Tips and tricks for LaTeX
