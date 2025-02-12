@@ -13,29 +13,6 @@ This page is intended as a reference for **styling conventions** used on the sit
     "editor.inlineSuggest.enabled": true
     ```
 
-
-### Difficulty indication
-To make it easier for readers to decide how deep they want to dive into a certain topic, it is good to divide the documentation into different difficulty levels. We do this with difficulty tags. Add this tag directly underneath the header of the section.
-
-```<span class="tag beginner-tag">⭐️ Beginner</span>``` Shortcut: `\beginner`
-
-<span class="tag beginner-tag">⭐️ Beginner</span>
-
-```<span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>``` Shortcut: `\intermediate`
-
-<span class="tag intermediate-tag">⭐️⭐️ Intermediate</span> 
-
-```<span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>``` Shortcut: `\advanced`
-
-<span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>
-
-If a topic covers multiple difficulty levels, indicate it as following:
-
-```<span class="tag beginner-tag">⭐️ Beginner</span> - <span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>```
-
-<span class="tag beginner-tag">⭐️ Beginner</span> - <span class="tag intermediate-tag">⭐️⭐️ Intermediate</span>
-
-
 ### Keyboard shortcuts
 Use the following styling: ++ctrl+alt+del++ `++ctrl+alt+del++`
 

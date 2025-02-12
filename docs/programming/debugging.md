@@ -127,7 +127,6 @@ when an error occurs, so you can see the values of all the variables at the mome
     </div>
     **Why watch this?** If you're using Python and Pycharm, and want to know how to get started using the debugger.
 
-    Advanced debugging tutorial <span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span>
     <div style="display: flex; justify-content: center; padding-bottom: 1em;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/k6j1NkVAsuU?si=f1hnzXE0odLwCemU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

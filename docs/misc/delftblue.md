@@ -1,8 +1,6 @@
 
 # Using the DelftBlue supercomputer
 
-<!-- <span class="tag advanced-tag">⭐️⭐️⭐️ Advanced</span> -->
-
 !!! note
 
     DelftBlue is a high-performance computing cluster that is used for research and education at TU Delft. It is a heterogeneous cluster that consists of a mix of CPU and GPU nodes. It has a good [official documentation](https://doc.dhpc.tudelft.nl/delftblue/).
