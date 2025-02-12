@@ -92,9 +92,8 @@ nav:
     - research/howtogoogle.md
   - Writing:
     - writing/index.md
-    - writing/latexintro.md
     - writing/markdown.md    
-    - writing/figstables.md
+    - writing/latex.md
     - writing/references.md
     - writing/latextogether.md
   - Misc:
