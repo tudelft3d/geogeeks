@@ -27,6 +27,15 @@ Watch out, it's a bit the far-west out there: some processors might not be able 
     GitHub offers an useful overview of the features they added for their extended version called "[GitHub Flavoured Markdown (GFM)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)".
 
 
+## Test yourself with an exercise
+
+- exercise #1: [HTML page to replicate](./files/md_result.html) (use PyCharm)
+- exercise #2: convert your .md file to a PDF with [Pandoc](https://pandoc.org/) 
+
+[SOLUTION TO #1](./files/md_result.md.txt) 
+
+
+
 ## Software to process Markdown
 
   - PyCharm/CLion will preview automatically any Markdown files
