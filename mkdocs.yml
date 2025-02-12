@@ -94,6 +94,7 @@ nav:
     - writing/index.md
     - writing/markdown.md    
     - writing/latex.md
+    - writing/typst.md
     - writing/references.md
     - writing/latextogether.md
   - Misc:
