@@ -20,7 +20,7 @@ If you use Linux, or if you want to use the [terminal](../computer/terminal.md),
 === ":simple-linux: Linux"
     It's most likely already installed, verify with `git --version`, which should return `git version 2.42.0` (or similar version).
 
-    If not installed, then `sudo apt update` + `sudo apt install git
+    If not installed, then `sudo apt update` + `sudo apt install git` 
 
 === ":material-microsoft-windows: Windows"
     With [Chocolatey](https://community.chocolatey.org/): `choco install git`.
