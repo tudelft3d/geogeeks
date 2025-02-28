@@ -32,7 +32,7 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
     Some useful commands:
 
       - create a new venv called "myenv1" (based on the current global version): `pyenv virtualenv myenv1`
-      - activate it: `penv activate myenv1`
+      - activate it: `pyenv activate myenv1`
       - deactivate it: `pyenv deactivate`
 
 
