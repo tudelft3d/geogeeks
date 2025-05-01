@@ -4,7 +4,7 @@
 ## LaTeX installation
 
 
-### Online environment: Overleaf
+### Web-application: Overleaf
 
 [![](img/overleaf.png)](https://overleaf.com)
 
