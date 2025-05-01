@@ -2,7 +2,7 @@
 # References (BibTeX)
 
 
-[BibTeX](https://en.wikipedia.org/wiki/BibTeX) is what LaTeX use, it's simple and just works.
+[BibTeX](https://en.wikipedia.org/wiki/BibTeX) is what LaTeX and Typst use, it's simple and just works.
 Manually editing your `.bib` is probably a bad idea, we suggest you use a GUI that will help you create the entries and search your database.
 
 
