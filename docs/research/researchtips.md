@@ -6,4 +6,4 @@ This is a video that I ([Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux)) recorde
 
 It's very opiniated, it is how **I** work. I hope it can help you find **your** way of working.
 
-TODO!
+![](https://upload.wikimedia.org/wikipedia/commons/2/21/OpenGL_Tutorial_TODO.png){width=300x}
