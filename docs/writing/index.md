@@ -14,4 +14,4 @@ Best for documentation (*this website is written in Markdown, see [its source co
 Best for MSc thesis and for assignment reports
 
 [Typst :fontawesome-solid-paper-plane:](typst.md){ .md-button }
-The "new LaTeX", great in 1-2y; live on the cutting edge!
+The "new LaTeX", will be great in 1-2y; live on the cutting edge!

@@ -32,7 +32,7 @@ The only potential drawback is that not all fonts are present; with a local inst
 
     The best is to follow the [official tutorial](https://typst.app/docs/tutorial/writing-in-typst/) to start.
 
-    The only crucial thing missing from it is how to add references, for this we suggest you use "natbib" ([tutorial about bibliography management with natbib](https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib)).
+    The only crucial thing missing from it is how to add references, for this we suggest you use LaTeX's BibTeX "natbib" ([tutorial about bibliography management with natbib](https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib)).
 
 
 We provide a MSc Geomatics thesis template, where you can find a lot of examples: how to place a figure, pseudo-code, tables, etc.
@@ -54,3 +54,9 @@ This is a good cross-platform one:
 * [IPE](http://ipe.otfried.org/) (cross-platform; integrates LaTeX text; great for triangulation and geometric stuff)
 * Adobe Illustrator (nice, but €€€)
 * [Inkscape](https://inkscape.org/en/) (cross-platform)
+
+
+## Templates
+
+1. [For student reports](https://github.com/Students-MSc-Geomatics-TU-Delft/Student-Report-Typst-Template). Made by an MSc Geomatics student ([@ZokszY](https://github.com/ZokszY))
+2. [For the MSc thesis](https://github.com/tudelft3d/msc_geomatics_thesis_typst). A port of the [MSc Geomatics thesis LaTeX template](https://github.com/tudelft3d/msc_geomatics_thesis_template) that has been used for year.
