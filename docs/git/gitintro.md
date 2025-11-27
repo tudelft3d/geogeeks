@@ -11,3 +11,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/zTjRZNkhiEU?si=Mu4maivVvROkgQs5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     This looooooong video (3h34min!?!) was highly recommended by a student!
+
+!!! tip GitHub has many many tutorials
+
+    [GitHub Learn](https://learn.github.com/)
