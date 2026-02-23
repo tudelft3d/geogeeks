@@ -11,4 +11,4 @@
 <!-- [![](img/tudelft3d.svg){width=250}]([TU Delft](https://3d.bk.tudelft.nl)) -->
 
 
-This site is made and taylored for the [MSc Geomatics students](http://geomatics.tudelft.nl/) at [TU Delft](https://tudelft.nl), but can probably be used by any geo/GIS/geomatics student.
+This site is made and tailored for the [MSc Geomatics students](http://geomatics.tudelft.nl/) at [TU Delft](https://tudelft.nl), but can probably be used by any geo/GIS/geomatics student.
