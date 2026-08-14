@@ -1,6 +1,10 @@
-# PEP 621 dependencies declaration
-# adapt to your dependencies manager
 [project]
+name = "geogeeks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
 dependencies = [
-    "mkdocstrings[python]>=0.18",
+    "mkdocs-awesome-pages-plugin>=2.10.1",
+    "mkdocs-material>=9.7.7",
 ]

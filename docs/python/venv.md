@@ -13,29 +13,6 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
 
 ## How to create and use a venv
 
-=== "Directly with PyCharm" 
-
-    PyCharm allows you to create venv and activate them, follow those instructions:
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UhOJF66gmvY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-=== "If you use pyenv"
-
-    If you used [pyenv](install.md) to install Python (this is what we recommend for macOS and Linux!), then you can also install the [pyenv-virtualenv plugin](https://github.com/pyenv/pyenv-virtualenv) to install and manage your virtual environments.
-    It keeps a global list of which versions and venv you have installed, and allows you to easily switch between them.
-
-    To install:
-
-      - macOS: `brew install pyenv-virtualenv`
-      - Linux: [see details](https://github.com/pyenv/pyenv-virtualenv?tab=readme-ov-file#installation)
-
-    Some useful commands:
-
-      - create a new venv called "myenv1" (based on the current global version): `pyenv virtualenv myenv1`
-      - activate it: `pyenv activate myenv1`
-      - deactivate it: `pyenv deactivate`
-
-
 === "Built-in Python"
 
     venv are builtin Python, and you can install a venv in a specific folder.
@@ -69,15 +46,19 @@ It allows us to avoid this mess (from [xkcd-1987](https://xkcd.com/1987/)):
     ```
     deactivate
     ```
+    
+=== "Directly with PyCharm" 
 
-=== "pyenv + PyCharm"
+    PyCharm allows you to create venv and activate them, follow those instructions:
 
-    Just activate and select a new interpreter (which must be a venv, not a Python version!), following those steps:
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UhOJF66gmvY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-    1. ![](img/pyenvpycharm-1.png)
-    2. ![](img/pyenvpycharm-2.png)
-    3. ![](img/pyenvpycharm-3.png)
+=== "If you use uv"
 
+    In a specific folder, you can do `uv init` and this will create a virtual environment (and a file `pyproject.toml`).
 
+    To install a package, instead of `pip install`, you have to `uv add XXX` to add the XXX package.
 
+    Then to run a script, you should `uv run myscript.py`
 
+    That's it.

@@ -1,18 +1,11 @@
 
-# How to install Python using pyenv
+# How to install Python using uv
 
 Installing and using Python as recommended below has major benefits and will prevent problems in the future.
 
-!!! warning ":material-microsoft-windows: Windows: use the python.org version!"
+We recommend installing and managing Python using [uv](https://docs.astral.sh/uv/). 
 
-    pyenv was created for macOS and Linux, and although it has a Windows version (called "**pyenv-win**"), this is not working very well and the installation is buggy. 
-
-    Therefore, for Windows we recommend you install Python "the normal way" ([downloading from python.org](https://www.python.org/downloads/)), but we **strongly recommend** you use [virtual environments](venv.md).
-
----
-
-We recommend installing and managing Python using "pyenv". 
-pyenv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
+uv is a tool that allows you to install *multiple versions* of Python, and select which specific version should be used.
 
 
 === ":simple-apple: macOS"
@@ -63,4 +56,3 @@ If you already have a pre-installed Python, this will print `system`. It might a
 pyenv global 3.10.5
 ```
 This command sets your newly installed Python as the default Python for all terminals.
-

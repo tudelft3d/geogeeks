@@ -1,6 +1,5 @@
-# Installing Python Packages using pip
 
-!!! warning "This guide presumes you have [installed Python using pyenv](install.md)."
+# Installing Python Packages using pip
 
 !!! info "All commands shown on this page are run in the [terminal](../computer/terminal.md)."
 
