@@ -13,12 +13,7 @@ theme:
     - content.code.copy
     # Enable annotations inside code blocks
     - content.code.annotate
-    # - navigation.footer
     - navigation.indexes
-    # - navigation.sections
-    # - navigation.tabs
-    # - navigation.top
-    # - navigation.tracking
   icon:
     logo: material/console
     edit: material/pencil 
@@ -118,12 +113,10 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
   # Content tabs (buttons to show different text based on selected tab)
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.keys # Keyboard keys shortcuts

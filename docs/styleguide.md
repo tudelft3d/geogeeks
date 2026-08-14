@@ -307,8 +307,8 @@ Want to recommend an external web page that is not a video? Use the following ad
     ```
 !!! external-link "Title of the external resource"
     Write your text here and add a link to the external resource
-    using the [title](https://geogeeks.tudelft.nl) syntax.
+    using the [title](https://tudelft3d.github.io/geogeeks) syntax.
 
-    Make the title long, so the link is clearly visible. So instead of [title](https://geogeeks.tudelft.nl) you would write [The official GitHub tutorial](https://geogeeks.tudelft.nl).
+    Make the title long, so the link is clearly visible. So instead of [title](https://tudelft3d.github.io/geogeeks) you would write [The official GitHub tutorial](https://tudelft3d.github.io/geogeeks).
 
 It's good to write a short text on why the resource is useful, and if possible give a difficulty tag. Also a screenshot of the web page can help.
