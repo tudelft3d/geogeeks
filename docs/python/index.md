@@ -14,9 +14,9 @@ For Python code to run, you need a program called "the Python interpreter" (or m
     - This Python is used by your operating system. If it somehow gets broken, other software on your computer depending on it might not work anymore and it will be very difficult to repair.
     - This Python is usually an older version, sometimes even Python 2. Code written for a newer version of Python might not run or give errors.
 
-So what to do instead? We recommend installing and managing Python using "pyenv". Pyenv is a tool that allows you to *install* multiple versions of Python, and *select* which specific version is *active*.
+So what to do instead? We recommend installing and managing Python using "uv", which allows you to *install* multiple versions of Python and keep them independent.
 
-[This guide shows you how to install Python using pyenv.](install.md)
+[This guide shows you how to install Python using uv.](install.md)
 
 ### Python FAQ
 !!! question "When should I use Python for my project? (Over something like C++)"
