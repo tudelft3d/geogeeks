@@ -53,6 +53,8 @@ nav:
     - programming/chooselanguage.md
     - programming/collabcode.md
     - programming/debugging.md
+  - LLM/AI: 
+    - llmai/index.md
   - Python: 
     - python/index.md
     - python/install.md
