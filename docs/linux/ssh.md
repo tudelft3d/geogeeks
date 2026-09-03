@@ -106,8 +106,8 @@ IdentityFile ~/.ssh/<your_filename>
 
     === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
-        - `ssh-copy-id bastionex` and give your TU Delft password when prompted.
-        - `ssh-copy-id <server>` and give your key's passphrase, then the server password. You may be prompted for the key passphrase several times.
+        `ssh-copy-id bastionex` and give your TU Delft password when prompted.
+        `ssh-copy-id <server>` and give your key's passphrase, then the server password. You may be prompted for the key passphrase several times.
 
     === ":material-microsoft-windows: Windows"
 
@@ -122,4 +122,4 @@ IdentityFile ~/.ssh/<your_filename>
 
 Once your `~/.ssh/config` is set and your key is copied, log in with:
 
-- `ssh <server_name>`
+`ssh <server_name>`
