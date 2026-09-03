@@ -1,32 +1,27 @@
-
 # How to connect to a TU Delft Linux server with ssh
 
-The connection to a TU Delft Linux server is done with SSH through your terminal on Unix-based systems or PowerShell on Windows. Below we describe the process for both systems. Under Windows it should also be possible to do the same as macOS/Linux with [PuTTY](https://putty.org/). However, the best alternative for Windows is to use [WSL](../linux/wsl.md) and follow the same instructions as those for macOS/Linux. 
+The connection to a TU Delft Linux server is done with SSH through your terminal on Unix-based systems or PowerShell on Windows. On Windows you can also use [PuTTY](https://putty.org/), but the recommended option is [WSL](../linux/wsl.md), which lets you follow the macOS/Linux instructions below.
 
-If you are working remotely, it is important that you also have `eduVPN` installed and activated. This is necessary anywhere where `eduroam` is not available.
-
-
-
-    
+When working remotely, make sure `eduVPN` is installed and active wherever `eduroam` is unavailable.
 
 ## **Step 1: Connect to the jump server**
 
-  Direct SSH access to TUD servers is not allowed. Therefore, to connect to your server, you need first to connect to a jump server.
+Direct SSH access to TU Delft servers is not allowed, so you must first connect to a jump server.
 
 !!! warning
-      For TU Delft employees, the jump server is called `linux-bastion-ex.tudelf.nl`. For students, the jump server is called `student-linux.tudelft.nl`. The following guide uses `student-bastion-ex.tudelf.nl` as an example.
+    For TU Delft employees the jump server is `linux-bastion-ex.tudelft.nl`; for students it is `student-linux.tudelft.nl`. This guide uses `student-bastion-ex.tudelft.nl` as an example.
 
-  To connect to the jump server, you can run the following command in your terminal or PowerShell on Windows (make sure you substitute `<netid>`  with your NetID and that you use the right jump server name).
+Run the following in your terminal or PowerShell, substituting `<netid>` with your NetID and the correct jump server name:
 
-  ```bash
-  ssh <netid>@student-bastion-ex.tudelft.nl
-  ```
+```bash
+ssh <netid>@student-bastion-ex.tudelft.nl
+```
 
-  When prompted for a password, use your NetID password. If your connection is successful, you will be connected to the jump server.
+Enter your NetID password when prompted. If your connection is successful, you will be connected to the jump server.
 
 ## **Step 2: Connect from the jump server to the TU Delft server**
 
-  After you have successfully connected to the jump server, you can connect from it directly to the server of your choice with ssh. You can find the correct hostname in the email you received (here we use `gilfoyle.bk.tudelft.nl` as an example).
+Once connected to the jump server, ssh directly to your server. Its hostname should be in the email you received (here we use `gilfoyle.bk.tudelft.nl` as an example).
 
   Depending on the username you received in the email there are 2 options:
 
@@ -34,17 +29,15 @@ If you are working remotely, it is important that you also have `eduVPN` install
 
   From the jump server, simply run:
 
-  ```bash
-  ssh gilfoyle.bk.tudelft.nl
-  ```
+```bash
+ssh gilfoyle.bk.tudelft.nl
+```
 
-  B) If the username is different from your NetID:
+B) If it differs from your NetID, run:
 
-  From the jump server, use the username to connect, running:
-
-  ```bash
-  ssh <username>@gilfoyle.bk.tudelft.nl
-  ```
+```bash
+ssh <username>@gilfoyle.bk.tudelft.nl
+```
 
   When you are prompted for a password, give the temporary password from the email. Then set up your new password.
 
@@ -52,7 +45,7 @@ If you are working remotely, it is important that you also have `eduVPN` install
 
 ## **Step 3: Make the connection easier with SSH keys (optional)**
 
-1. To make connecting to the server faster and without the need for a password, you need to generate an SSH key pair. In your computer's terminal/PowerShell, type:
+1. To connect to the server faster and without the need for a password, you need to generate an SSH key pair. In your terminal/PowerShell, type:
 
 ```bash
 ssh-keygen -t rsa
@@ -60,7 +53,7 @@ ssh-keygen -t rsa
 
 and follow the instructions. The flag `–t rsa` is used to set the algorithm to be used for the key generation and can be substituted with `-t ed25519`, if preferred. It is recommended to use a password to protect your keys. You'll have to use this password every time you login, or you can use ssh-add to store it (once after you restart your computer). This command will create an SSH key pair in your `~/.ssh` directory (on Windows this is `C:\Users\<username>\.ssh`). There will be 2 files, `id_rsa` for the private key and `id_rsa.pub` for the public one. If you choose to name your file differently (to avoid overwriting other ssh keys you might have) please make sure to use the correct file name in the following commands. 
 
-1. Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh` on Windows).
+2. Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh` on Windows):
 
     === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
@@ -90,7 +83,7 @@ Host <server_name>
 
 ```
 
-Replace `<netid>` with your netid. This will allow you to connect to Bastion. Substitute `<server_name>`, `<server_hostname>` and `<username>` with your credentials for the server. Here is example for gilfoyle:
+Replace `<netid>` with your netid. Substitute `<server_hostname>` and `<username>` with your server credentials. Substitute  `<server_name>` with a name you choose for the server. Example for gilfoyle:
 
 ```
   Host gilfoyle
@@ -102,35 +95,31 @@ Replace `<netid>` with your netid. This will allow you to connect to Bastion. 
 
 For each server that you would like to connect to you can add the same snippet to your config file.
 
-If in the step 2 you changed the name of your ssh key from the default  `id_rsa`, you need to add the following line to each of the hosts:
+If you changed the key filename from `id_rsa`, add this line to each host:
 
 ```
 IdentityFile ~/.ssh/<your_filename>
 
 ```
-     
- 1. Copy your public ssh key (as created in step 1) to all servers respectively. So:
+
+1. Copy your public key to the jump server and each server:
+
     === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
         - `ssh-copy-id bastionex` and give your TU Delft password when prompted.
-        - `ssh-copy-id <server>` and give your key's password (set in step 1) and then your server password. Beware you might be prompted for the password of your ssh keys multiple times before you are asked for the actual password of the respective user in each server.
+        - `ssh-copy-id <server>` and give your key's passphrase, then the server password. You may be prompted for the key passphrase several times.
 
     === ":material-microsoft-windows: Windows"
 
-        On Windows, `ssh-copy-id` is not available. Instead, pipe your public key over `ssh`:
 
         ```powershell
         Get-Content C:\<home_directory>\.ssh\id_rsa.pub | ssh bastionex "cat >> .ssh/authorized_keys"
         ```
 
-        Give your TU Delft password when prompted. Then do the same for each server, replacing `bastionex` with `<server>`.
+        Give your TU Delft password when prompted. Repeat for each server, replacing `bastionex` with `<server_name>`.
 
 **Usage**
 
-As soon as your `~/.ssh/config` is set and your public key is copied correctly, you should be able to login to the server with:
+Once your `~/.ssh/config` is set and your key is copied, log in with:
 
-- `ssh <server>`
-
-
-
-
+- `ssh <server_name>`
