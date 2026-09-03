@@ -1,9 +1,11 @@
 
 # How to connect to a TU Delft Linux server with ssh
 
-The connection to a TU Delft Linux server is done with SSH through your terminal (on Unix-based systems) or PowerShell (on Windows). If you are working remotely, it is important that you also have `eduVPN` installed and activated. This is necessary anywhere where `eduroam` is not available.
-Below we describe the process for connecting to the remote server from both Linux and a Windows machine. However, the best alternative for Windows is to use [WSL](../linux/wsl.md) and follow the same instructions as those for macOS/Linux.
-Under Windows it should also be possible to do the same as macOS/Linux with [PuTTY](https://putty.org/). 
+The connection to a TU Delft Linux server is done with SSH through your terminal on Unix-based systems or PowerShell on Windows. Below we describe the process for both systems. Under Windows it should also be possible to do the same as macOS/Linux with [PuTTY](https://putty.org/). However, the best alternative for Windows is to use [WSL](../linux/wsl.md) and follow the same instructions as those for macOS/Linux. 
+
+If you are working remotely, it is important that you also have `eduVPN` installed and activated. This is necessary anywhere where `eduroam` is not available.
+
+
 
     
 
