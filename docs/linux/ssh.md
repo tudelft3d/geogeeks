@@ -13,10 +13,10 @@ If you are working remotely, it is important that you also have `eduVPN` install
 
   Direct SSH access to TUD servers is not allowed. Therefore, to connect to your server, you need first to connect to a jump server.
 
-  !!! warning
+!!! warning
       For TU Delft employees, the jump server is called `linux-bastion-ex.tudelf.nl`. For students, the jump server is called `student-linux.tudelft.nl`. The following guide uses `student-bastion-ex.tudelf.nl` as an example.
 
-  To connect to the jump server, you can run the following command in your terminal or PowerShell on Windows (make sure you substitute <netid>  with your NetID and that you use the right jump server name).
+  To connect to the jump server, you can run the following command in your terminal or PowerShell on Windows (make sure you substitute `<netid>`  with your NetID and that you use the right jump server name).
 
   ```bash
   ssh <netid>@student-bastion-ex.tudelft.nl
@@ -60,7 +60,7 @@ ssh-keygen -t rsa
 
 and follow the instructions. The flag `–t rsa` is used to set the algorithm to be used for the key generation and can be substituted with `-t ed25519`, if preferred. It is recommended to use a password to protect your keys. You'll have to use this password every time you login, or you can use ssh-add to store it (once after you restart your computer). This command will create an SSH key pair in your `~/.ssh` directory (on Windows this is `C:\Users\<username>\.ssh`). There will be 2 files, `id_rsa` for the private key and `id_rsa.pub` for the public one. If you choose to name your file differently (to avoid overwriting other ssh keys you might have) please make sure to use the correct file name in the following commands. 
 
-1. Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh` on Windows) and add the following content:
+1. Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh` on Windows).
 
     === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
 
@@ -70,13 +70,13 @@ and follow the instructions. The flag `–t rsa` is used to set the algorithm to
 
     === ":material-microsoft-windows: Windows"
 
-        On Windows, `vim` is not available by default. Open the file with Notepad instead:
-
         ```powershell
         notepad $env:USERPROFILE\.ssh\config
         ```
 
         If the `.ssh` folder does not exist yet, create it first with `mkdir $env:USERPROFILE\.ssh`.
+
+Then add the following content:
 
 ```
 Host bastionex
