@@ -2,6 +2,10 @@
 # How to connect to a TU Delft Linux server with ssh
 
 The connection to a TU Delft Linux server is done with SSH through your terminal (on Unix-based systems) or PowerShell (on Windows). If you are working remotely, it is important that you also have `eduVPN` installed and activated. This is necessary anywhere where `eduroam` is not available.
+Below we describe the process for connecting to the remote server from both Linux and a Windows machine. However, the best alternative for Windows is to use [WSL](../linux/wsl.md) and follow the same instructions as those for macOS/Linux.
+Under Windows it should also be possible to do the same as macOS/Linux with [PuTTY](https://putty.org/). 
+
+    
 
 ## **Step 1: Connect to the jump server**
 
@@ -52,9 +56,25 @@ The connection to a TU Delft Linux server is done with SSH through your terminal
 ssh-keygen -t rsa
 ```
 
-and follow the instructions. The flag `–t rsa` is used to set the algorithm to be used for the key generation and can be substituted with `-t ed25519`, if preferred. It is recommended to use a password to protect your keys. You'll have to use this password every time you login, or you can use ssh-add to store it (once after you restart your computer). This command will create an SSH key pair in your ~/.ssh directory. There will be 2 files, `id_rsa` for the private key and `id_rsa.pub` for the public one. If you choose to name your file differently (to avoid overwriting other ssh keys you might have) please make sure to use the correct file name in the following commands. 
+and follow the instructions. The flag `–t rsa` is used to set the algorithm to be used for the key generation and can be substituted with `-t ed25519`, if preferred. It is recommended to use a password to protect your keys. You'll have to use this password every time you login, or you can use ssh-add to store it (once after you restart your computer). This command will create an SSH key pair in your `~/.ssh` directory (on Windows this is `C:\Users\<username>\.ssh`). There will be 2 files, `id_rsa` for the private key and `id_rsa.pub` for the public one. If you choose to name your file differently (to avoid overwriting other ssh keys you might have) please make sure to use the correct file name in the following commands. 
 
-1. Create a file named `config` in your `~/.ssh` folder (or, just `vim ~/.ssh/config`) and add the following content:
+1. Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh` on Windows) and add the following content:
+
+    === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
+
+        ```bash
+        vim ~/.ssh/config
+        ```
+
+    === ":material-microsoft-windows: Windows"
+
+        On Windows, `vim` is not available by default. Open the file with Notepad instead:
+
+        ```powershell
+        notepad $env:USERPROFILE\.ssh\config
+        ```
+
+        If the `.ssh` folder does not exist yet, create it first with `mkdir $env:USERPROFILE\.ssh`.
 
 ```
 Host bastionex
@@ -88,9 +108,20 @@ IdentityFile ~/.ssh/<your_filename>
 ```
      
  1. Copy your public ssh key (as created in step 1) to all servers respectively. So:
-- `ssh-copy-id bastionex` and give your TU Delft password when prompted.
-- `ssh-copy-id <server>` and give your key's password (set in step 1) and then your server password. Beware you might be prompted for the password of your ssh keys multiple times before you are asked for the actual password of the respective user in each server.
-Now you can install your SSH public key on the jump server with the following command and give you NetID password when prompted. (Note: change the server name if needed)
+    === ":simple-apple: :simple-linux: Unix (macOS & Linux)"
+
+        - `ssh-copy-id bastionex` and give your TU Delft password when prompted.
+        - `ssh-copy-id <server>` and give your key's password (set in step 1) and then your server password. Beware you might be prompted for the password of your ssh keys multiple times before you are asked for the actual password of the respective user in each server.
+
+    === ":material-microsoft-windows: Windows"
+
+        On Windows, `ssh-copy-id` is not available. Instead, pipe your public key over `ssh`:
+
+        ```powershell
+        Get-Content C:\<home_directory>\.ssh\id_rsa.pub | ssh bastionex "cat >> .ssh/authorized_keys"
+        ```
+
+        Give your TU Delft password when prompted. Then do the same for each server, replacing `bastionex` with `<server>`.
 
 **Usage**
 
