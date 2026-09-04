@@ -1,0 +1,72 @@
+
+:root {
+  --md-admonition-icon--external-link: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112v320c0 44.2 35.8 80 80 80h320c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v112c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16h112c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>');
+  --md-admonition-icon--video: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><path d="M72.7,19.47H28.36c-11.44,0-20.72,9.27-20.72,20.72v20.33c0,11.44,9.27,20.72,20.72,20.72H72.7c11.44,0,20.72-9.27,20.72-20.72V40.18C93.42,28.74,84.14,19.47,72.7,19.47z M66.02,51.95L42.58,65.35c-1.49,0.85-3.35-0.22-3.35-1.95V36.59c0-1.72,1.86-2.8,3.35-1.95l23.44,13.41C67.53,48.92,67.53,51.08,66.02,51.95z"/></svg>');
+  --md-primary-fg-color:        #3e004b;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #113c2b;
+}
+.md-typeset .admonition.external-link,
+.md-typeset details.external-link {
+  border-color: rgb(247, 115, 146);
+}
+.md-typeset .external-link > .admonition-title,
+.md-typeset .external-link > summary {
+  background-color: rgba(247, 115, 146, 0.1); 
+}
+.md-typeset .external-link > .admonition-title::before,
+.md-typeset .external-link > summary::before {
+  background-color: rgb(247, 115, 146);
+  -webkit-mask-image: var(--md-admonition-icon--external-link);
+          mask-image: var(--md-admonition-icon--external-link);
+}
+
+.md-typeset .admonition.video,
+.md-typeset details.video {
+  border-color: rgb(247, 115, 146);
+}
+.md-typeset .video > .admonition-title,
+.md-typeset .video > summary {
+  background-color: rgba(247, 115, 146, 0.1); 
+}
+.md-typeset .video > .admonition-title::before,
+.md-typeset .video > summary::before {
+  background-color: rgb(247, 115, 146);
+  -webkit-mask-image: var(--md-admonition-icon--video);
+          mask-image: var(--md-admonition-icon--video);
+}
+
+.tag {
+  font-size: 0.9em;
+  color: #eeeeee;
+  padding: 5px 7px;
+  border-radius: 100px;
+  position: relative;
+}
+.tag.beginner-tag {
+  background-color: black; 
+}
+
+.tag.intermediate-tag {
+  background-color: black; 
+}
+
+.tag.advanced-tag {
+  background-color: #6a3cb5; 
+}
+
+.tag[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  min-width: 40ch;
+  max-width: 50ch;
+  pointer-events: none;
+}
+
