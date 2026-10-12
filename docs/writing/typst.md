@@ -26,7 +26,7 @@ The only potential drawback is that not all fonts are present; with a local inst
 ![](./img/vscode.png)
 
 Alternatively, use your favourite text editor and in a shell `typst watch myfile.typ`, this will automatically recompile `myfile.pdf` on changes (this is faster than compiling from scratch each time because Typst has incremental compilation). 
-You need to use a PDF viewer that supports this (Adobe does not), for macOS [Skim](https://skim-app.sourceforge.io/) is great, for Windows I have no idea (find one and make a PR to change this sentence).
+You need to use a PDF viewer that supports this (Adobe does not): we suggest using [Skim](https://skim-app.sourceforge.io/) on macOS and [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) on Windows. 
 
 
 ## Getting started
