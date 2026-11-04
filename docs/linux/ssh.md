@@ -9,12 +9,12 @@ When working remotely, make sure `eduVPN` is installed and active wherever `edur
 Direct SSH access to TU Delft servers is not allowed, so you must first connect to a jump server.
 
 !!! warning
-    For TU Delft employees the jump server is `linux-bastion-ex.tudelft.nl`; for students it is `student-linux.tudelft.nl`. This guide uses `student-bastion.tudelft.nl` as an example.
+    For TU Delft employees the jump server is `linux-bastion-ex.tudelft.nl`; for students it is `student-linux.tudelft.nl`. This guide uses `student-linux.tudelft.nl` as an example.
 
 Run the following in your terminal or PowerShell, substituting `<netid>` with your NetID and the correct jump server name:
 
 ```bash
-ssh <netid>@student-bastion.tudelft.nl
+ssh <netid>@student-linux.tudelft.nl
 ```
 
 Enter your NetID password when prompted. If your connection is successful, you will be connected to the jump server.
@@ -66,7 +66,7 @@ Create a file named `config` in your `~/.ssh` folder (`C:\Users\<username>\.ssh`
 Then add the following content:
 ```
 Host bastionex
-Hostname student-bastion.tudelft.nl
+Hostname student-linux.tudelft.nl
 User <netid>
 
 Host <server_name>
