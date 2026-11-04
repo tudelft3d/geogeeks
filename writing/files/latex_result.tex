@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} %-- pour utiliser des accents en français
+\usepackage{amsmath,amssymb,amsthm} 
+\usepackage[round]{natbib}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage[left=20mm,top=20mm]{geometry}
+\usepackage{algorithmic}
+\usepackage{subcaption}
+\usepackage{mathpazo}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings}
+% \usepackage{draftwatermark}
+
+\newcommand{\ie}{ie}
+\newcommand{\eg}{eg}
+\newcommand{\reffig}[1]{Figure~\ref{#1}}
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+
+\setcapindent{1em} %-- for captions of Figures
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+
+\title{My MSc Geomatics assignment}
+\author{Céline Dion\\\#12345\\\url{c.dion@tudelft.nl} \and Roger van Delft\\\#56789\\url{r.vandelft@tudelft.nl}}
+\date{13 November 2023}
+
+
+\begin{document}
+
+\maketitle
+
+%%%
+%
+\section{Introduction}
+
+Try to reproduce as closely as possible this document. Some tips:
+
+\begin{enumerate}
+  \item the template used is KOMA-script: \verb|\documentclass[a4paper,11pt]{scrartcl}|
+  \item the font used is Palatino
+\end{enumerate}
+
+\subsection{References}
+     
+We can see this in the work of \citet{Schiefer20} and others~\citep{Lan22}.
+
+
+\subsection{Figures}
+
+Then download locally the TUDelft logo on the front page of \url{https://tudelft3d.github.
+io/geogeeks}, and add it as in a Figure~\ref{fig:logo}.
+\begin{figure}
+  \centering
+  \includegraphics[angle=180,width=0.5\linewidth]{tud.png}
+  \caption{The TUDelft logo upside-down.}%
+\label{fig:logo}
+\end{figure}
+
+Then pick a software to draw vectorial and draw a circle and a square, and save it to a PDF\@.
+And add it to a figure as in Figure~\ref{fig:circle}.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.2\linewidth]{circle.pdf}
+  \caption{A circle and a square.}%
+\label{fig:circle}
+\end{figure}
+
+\subsection{Tables}
+And finally replicate the Table~\ref{tab:example}.
+
+\begin{table}
+  \centering
+  \begin{tabular}{@{}lrrcrr@{}} \toprule
+    &&&& \multicolumn{2}{c}{\# of things}  \\
+    \cmidrule{5-6} 
+    & this & that && left & right  \\ 
+    \toprule
+    \textbf{A}  & 30 & 48  &&  5970  & 3976   \\
+    \textbf{B}  & 63 & 69  && 15711  & 44   \\
+    \bottomrule
+   \end{tabular}
+  \caption{Details concerning the datasets used for the experiments.}%
+\label{tab:example}
+\end{table}
+
+\subsection{Code}
+
+And the code is shown in Figure~\ref{fig:code}.
+\begin{figure}
+\begin{lstlisting}
+  import sys 
+  print("Hello world!")
+\end{lstlisting}
+\caption{I am a Python hero!}%
+\label{fig:code}
+\end{figure}
+
+
+%%%
+%
+\section{Conclusions}
+
+I am now the best at \LaTeX!
+
+Lemongrass frosted gingerbread bites banana bread orange crumbled lentils sweet potato black bean burrito green pepper springtime strawberry ginger lemongrass agave green tea smoky maple tempeh glaze enchiladas couscous. Cranberry spritzer Malaysian cinnamon pineapple salsa apples spring cherry bomb bananas blueberry pops scotch bonnet pepper spiced pumpkin chili lime eating together kale blood orange smash arugula salad. Bento box roasted peanuts pasta Sicilian pistachio pesto lavender lemonade elderberry Southern Italian citrusy mint lime taco salsa lentils walnut pesto tart quinoa flatbread sweet potato grenadillo.
+
+
+\bibliographystyle{abbrvnat}
+\bibliography{references}
+\end{document}
